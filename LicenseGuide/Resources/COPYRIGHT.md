@@ -28,7 +28,7 @@ to be copyrighted (c) 2004 by the Eclipse Foundation.
 ## Copyright notices
 
 In the case of short copyright notices being copyrightable, assume that
-the AGLP, GPLv3, GPLv2 and LPGP copyright notices are copyrighted by
+the AGPL, GPLv3, GPLv2 and LGPL copyright notices are copyrighted by
 the Free Software Foundation in the same manner as their corresponding
 license texts.
 
