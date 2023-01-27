@@ -4,7 +4,7 @@ for source code, font files, or other types of materials such as paintings,
 novels, films, music, video game graphics, scientific articles, software
 documentation, photographs, architecture, choreography, technical drawings,
 sculptures, podcast recordings, fashion design, or anything else protectable
-by copyright. The selection of licenses is small but safe.
+by copyright. The selection of licenses is [small but safe](https://github.com/chiralsymmetry/license-guide/wiki).
 
 ![](../../blob/assets/screenshot.png)
 
