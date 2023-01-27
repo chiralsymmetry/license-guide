@@ -3,7 +3,7 @@ License Guide is an opiniated helper for picking an appropriate license for
 source code, font files, or other types of materials. The selection of
 licenses is small but safe.
 
-![](../../blob/screenshot.png)
+![](../../blob/assets/screenshot.png)
 
 Where other guides approach the issue with positivity, such as “use this
 license if you want something simple”, we ask you questions meant to
