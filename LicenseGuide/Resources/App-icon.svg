@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 1024 1024"
+   class="icon"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="license-guide.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xml:space="preserve"
+   inkscape:export-filename="license-guide.png"
+   inkscape:export-xdpi="30.719999"
+   inkscape:export-ydpi="30.719999"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><title
+     id="title24281">License Guide Icon</title><defs
+     id="defs14" /><sodipodi:namedview
+     id="namedview12"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.45387417"
+     inkscape:cx="-674.19567"
+     inkscape:cy="447.26053"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" /><path
+     d="M853.333333 853.333333c-147.2 0-341.333333 85.333333-341.333333 85.333334V469.333333s192-85.333333 384-85.333333l-42.666667 469.333333z"
+     fill="#5C6BC0"
+     id="path2"
+     style="fill:#305d9f;fill-opacity:1" /><path
+     d="M170.666667 853.333333c147.2 0 341.333333 85.333333 341.333333 85.333334V469.333333s-192-85.333333-384-85.333333l42.666667 469.333333z"
+     fill="#7986CB"
+     id="path4"
+     style="fill:#4d95ff;fill-opacity:1" /><path
+     d="M512 256m-170.666667 0a170.666667 170.666667 0 1 0 341.333334 0 170.666667 170.666667 0 1 0-341.333334 0Z"
+     fill="#FFB74D"
+     id="path6" /><path
+     d="M874.666667 682.666667h21.333333c12.8 0 21.333333-8.533333 21.333333-21.333334v-85.333333c0-12.8-8.533333-21.333333-21.333333-21.333333h-21.333333c-36.266667 0-64 27.733333-64 64s27.733333 64 64 64zM149.333333 554.666667H128c-12.8 0-21.333333 8.533333-21.333333 21.333333v85.333333c0 12.8 8.533333 21.333333 21.333333 21.333334h21.333333c36.266667 0 64-27.733333 64-64s-27.733333-64-64-64z"
+     fill="#FFB74D"
+     id="path8" /><style
+     type="text/css"
+     id="style13951">
+	.st0{fill:#000000;}
+</style><g
+     id="g13957"
+     transform="matrix(0.55061354,0.02359753,-0.02359753,0.55061354,210.62519,502.0092)"
+     style="fill:#305d9f;fill-opacity:1;stroke-width:1.00102;stroke-dasharray:none">
+	<path
+   class="st0"
+   d="M 396.138,85.295 C 382.966,60.258 362.343,39.397 336.796,24.265 311.26,9.2 280.435,0.001 246.98,0.001 205.742,-0.101 171.48,10.643 145.621,25.522 119.659,40.348 108.465,57.61 108.465,57.61 c -4.363,3.786 -6.824,9.294 -6.721,15.056 0.118,5.77 2.775,11.186 7.273,14.784 l 35.933,28.78 c 7.324,5.864 17.806,5.644 24.875,-0.518 0,0 4.414,-7.978 18.247,-15.88 13.91,-7.85 31.945,-14.173 58.908,-14.258 23.517,-0.051 44.022,8.725 58.016,20.717 6.952,5.941 12.145,12.594 15.328,18.68 3.208,6.136 4.379,11.5 4.363,15.574 -0.068,13.766 -2.742,22.77 -6.603,30.442 -2.945,5.729 -6.789,10.813 -11.738,15.744 -7.384,7.384 -17.398,14.207 -28.634,20.479 -11.245,6.348 -23.365,11.932 -35.612,18.68 -13.978,7.74 -28.77,18.858 -39.701,35.544 -5.449,8.249 -9.71,17.686 -12.416,27.641 -2.742,9.964 -3.98,20.412 -3.98,31.071 0,11.372 0,20.708 0,20.708 0,10.719 8.69,19.41 19.41,19.41 h 46.762 c 10.719,0 19.41,-8.691 19.41,-19.41 0,0 0,-9.336 0,-20.708 0,-4.107 0.467,-6.755 0.917,-8.436 0.773,-2.512 1.206,-3.14 2.47,-4.668 1.29,-1.452 3.895,-3.674 8.698,-6.331 7.019,-3.946 18.298,-9.276 31.07,-16.176 19.121,-10.456 42.367,-24.646 61.972,-48.062 9.752,-11.686 18.374,-25.758 24.323,-41.968 6.001,-16.21 9.242,-34.431 9.226,-53.96 -0.018,-19.784 -5.382,-38.574 -14.123,-55.25 z"
+   id="path13953"
+   style="fill:#305d9f;fill-opacity:1;stroke-width:1.00102;stroke-dasharray:none" />
+	<path
+   class="st0"
+   d="m 228.809,406.44 c -29.152,0 -52.788,23.644 -52.788,52.788 0,29.136 23.637,52.772 52.788,52.772 29.136,0 52.763,-23.636 52.763,-52.772 0,-29.144 -23.627,-52.788 -52.763,-52.788 z"
+   id="path13955"
+   style="fill:#305d9f;fill-opacity:1;stroke-width:1.00102;stroke-dasharray:none" />
+</g><g
+     style="fill:#4d95ff;fill-opacity:1"
+     id="g21354"
+     transform="matrix(18.316698,-0.52193548,0.52193548,18.316698,656.40464,472.62908)"><path
+       d="M 2.828,15.984 A 1.328,1.328 0 1 1 1.5,14.657 1.328,1.328 0 0 1 2.828,15.984 Z M 1.5,13.244 A 1.03,1.03 0 0 1 0.47,12.214 V 2.668 a 1.03,1.03 0 0 1 2.06,0 v 9.548 A 1.03,1.03 0 0 1 1.5,13.245 Z"
+       id="path21345"
+       style="fill:#4d95ff;fill-opacity:1" /></g><g
+     style="fill:none;stroke:#402e13;stroke-opacity:1"
+     id="g22093"
+     transform="matrix(17.426191,0,0,17.426191,302.74566,46.110636)"><path
+       d="M 14,9 C 13.5197,8.40081 12.93,8 12,8 10.0769,8 9,9.14286 9,12 c 0,2.8571 1.0769,4 3,4 0.93,0 1.5197,-0.4008 2,-1 m -2,6 c 4.9706,0 9,-4.0294 9,-9 0,-4.97056 -4.0294,-9 -9,-9 -4.97056,0 -9,4.02944 -9,9 0,4.9706 4.02944,9 9,9 z"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path22084"
+       style="stroke:#402e13;stroke-opacity:1" /></g><metadata
+     id="metadata24279"><rdf:RDF><cc:Work
+         rdf:about=""><cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" /><dc:contributor><cc:Agent><dc:title>https://www.svgrepo.com/svg/474959/reading
+https://www.svgrepo.com/svg/488887/copyright
+https://www.svgrepo.com/svg/479050/question-mark
+https://www.svgrepo.com/svg/438511/exclamation-mark</dc:title></cc:Agent></dc:contributor><dc:title>License Guide Icon</dc:title><dc:date>2023</dc:date><dc:creator><cc:Agent><dc:title>Chiral Symmetry</dc:title></cc:Agent></dc:creator></cc:Work><cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/"><cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" /><cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" /><cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /></cc:License></rdf:RDF></metadata></svg>

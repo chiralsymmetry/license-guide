@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="attribution_no" xml:space="preserve">
+    <value>No, I want my work to be distributed and come to use, even if it means the risk of not being acknowledged as the creator of the work.</value>
+  </data>
+  <data name="attribution_question" xml:space="preserve">
+    <value>Suppose someone you despise uses or distributes your work. Nowhere do they state that you are the creator of the work. Do you want this to be illegal?</value>
+  </data>
+  <data name="attribution_yes" xml:space="preserve">
+    <value>Yes, in exchange for using my work, I want them to be forced to acknowledge me as the creator of the work.</value>
+  </data>
+  <data name="cc0_explanation" xml:space="preserve">
+    <value>The Creative Commons family of public copyright licenses has the primary goal of promoting free culture and open content. That's why they have developed several licenses with careful legal language and varying terms and conditions, to allow creators who want to contribute to choose a license that suits their needs.
+
+By licensing/marking your work as CC0, you indicate your intention to permanently waive all copyright, to the fullest extent permitted by law, without any requirement for compensation or attribution. (Please note that the license applies only to copyright, not to trademarks or patents. You also cannot waive the rights of other people; for example, you can waive the copyright of your photograph of another person, but if that person has a “right of publicity” to control his or her image, you cannot waive that right.)
+
+Please note that the choice of license should be considered final and irrevocable. An author who releases his or her work under CC0 should expect such a release to be considered final and irrevocable; the author may create new or modified works with different terms or licenses, but should assume that old works are always covered by their freest terms. On the other hand, an author who releases a work under stricter terms/licenses may release the work at any time, even retroactively (i.e. previous creations and modified works). It may therefore be better to start strictly and open up, rather than the other way around.</value>
+  </data>
+  <data name="cc0_notice" xml:space="preserve">
+    <value>[title of work] by [your name] is licensed/marked as CC0 1.0 Universal. To view a copy of this license, visit: https://creativecommons.org/publicdomain/zero/1.0/deed.sv</value>
+  </data>
+  <data name="cc0_title" xml:space="preserve">
+    <value>CC0 1.0 Universal</value>
+  </data>
+  <data name="cc_byncnd_explanation" xml:space="preserve">
+    <value>The Creative Commons family of public copyright licenses has the primary goal of promoting free culture and open content. That's why they have developed several licenses with careful legal language and varying terms, to allow creators who want to contribute to choose a license that suits their needs.
+
+Licensing your work as CC BY-NC-ND gives potential licensees — people interested in copying, using and distributing your work — the right to do so in ways that would otherwise violate copyright law. However, the permission is only valid as long as they comply with the terms of the license.
+
+First and foremost, they may not use your work for “Non-Commercial” (NC) purposes, which is defined as situations where the use is “primarily intended” to make money or be of commercial benefit. This is regardless of whether the licensee itself is a for-profit organization or not.
+
+In addition, the licensee may not modify the work (“No Derivatives”, ND): it must be distributed in its entirety and in its original form. However, the licensee may change its “format” or “medium”; in the case of music, for example, the licensee may offer it in various digital downloadable formats, play it on the radio, or the like. However, the work may not be used as part of a larger work, for example as background music in a film, even if unmodified in its entirety.
+
+Finally, the licensee must give due attribution to you as the creator (“by”), which usually means a written or verbal statement that names you, your work, and the license that applies to the work.
+
+Note that when you release your work under a public copyright license, the license applies only to other people. This means, for example, that those who want to use your work, but not under this license, can still negotiate a separate agreement with you.
+
+Finally, please note that the choice of license should be considered final and irreversible. An author with full rights can release his work at any time under freer terms or licenses, even retroactively (i.e. earlier creations and modified works), but should expect such a release to count as final and irreversible: an author can then release new works or modified works under a different license, but should assume that old works are always covered by their freest terms. It may therefore be better to start strictly and open up, rather than the other way around.</value>
+  </data>
+  <data name="cc_byncnd_notice" xml:space="preserve">
+    <value>[title of work] © [year] by [your name] is licensed as CC BY-NC-ND 4.0. To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.sv</value>
+  </data>
+  <data name="cc_byncnd_title" xml:space="preserve">
+    <value>Creative Commons BY-NC-ND 4.0</value>
+  </data>
+  <data name="cc_byncsa_explanation" xml:space="preserve">
+    <value>The Creative Commons family of public copyright licenses has the primary goal of promoting free culture and open content. That's why they have developed several licenses with careful legal language and varying terms, to allow creators who want to contribute to choose a license that suits their needs.
+
+Licensing your work as CC BY-NC-SA gives potential licensees — people interested in copying, using, modifying and distributing your work — the right to do so in ways that would otherwise violate copyright law. However, the permission is only valid as long as they comply with the terms of the license.
+
+First and foremost, they may not use your work for “Non-Commercial” (NC) purposes, which is defined as situations where the use is “primarily intended” to make money or be of commercial benefit. This is regardless of whether the licensee itself is a for-profit organization or not.
+
+In addition, the licensee must give due attribution to you as the creator (“by”), which usually means a written or verbal statement that names you, your work, and the license that applies to the work.
+
+Finally, the licensee must license their new work under exactly the same terms as your work (“Share Alike”, SA). This forces them to also contribute to free culture and open content, but in a way that respects your personal intentions for your material. It does, however, place restrictions on what other material a licensee can use to create a combined work with your material: they must have the right to license all the content of the new work as BY-NC-SA.
+
+Note that when you release your work under a public copyright license, the license applies only to other people. This means, for example, that those who want to use your work, but not under this license, can still negotiate a separate agreement with you.
+
+Finally, please note that the choice of license should be considered final and irreversible. An author with full rights can release his work at any time under freer terms or licenses, even retroactively (i.e. earlier creations and modified works), but should expect such a release to count as final and irreversible: an author can then release new works or modified works under a different license, but should assume that old works are always covered by their freest terms. It may therefore be better to start strictly and open up, rather than the other way around.</value>
+  </data>
+  <data name="cc_byncsa_notice" xml:space="preserve">
+    <value>[title of work] © [year] by [your name] is licensed as CC BY-NC-SA 4.0. To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.sv</value>
+  </data>
+  <data name="cc_byncsa_title" xml:space="preserve">
+    <value>Creative Commons BY-NC-SA 4.0</value>
+  </data>
+  <data name="cc_bync_explanation" xml:space="preserve">
+    <value>The Creative Commons family of public copyright licenses has the primary goal of promoting free culture and open content. That's why they have developed several licenses with careful legal language and varying terms, to allow creators who want to contribute to choose a license that suits their needs.
+
+Licensing your work as CC BY-NC gives potential licensees — people interested in copying, using, modifying and distributing your work — the right to do so in ways that would otherwise violate copyright law. However, the permission is only valid as long as they comply with the terms of the license.
+
+First and foremost, they may not use your work for “Non-Commercial” (NC) purposes, which is defined as situations where the use is “primarily intended” to make money or be of commercial benefit. This is regardless of whether the licensee itself is a for-profit organization or not.
+
+In addition, the licensee must give due attribution to you as the creator (“by”), which usually means a written or verbal statement that names you, your work, and the license that applies to the work.
+
+Note that when you release your work under a public copyright license, the license applies only to other people. This means, for example, that those who want to use your work, but not under this license, can still negotiate a separate agreement with you.
+
+Finally, please note that the choice of license should be considered final and irreversible. An author with full rights can release his work at any time under freer terms or licenses, even retroactively (i.e. earlier creations and modified works), but should expect such a release to count as final and irreversible: an author can then release new works or modified works under a different license, but should assume that old works are always covered by their freest terms. It may therefore be better to start strictly and open up, rather than the other way around.</value>
+  </data>
+  <data name="cc_bync_notice" xml:space="preserve">
+    <value>[title of work] © [year] by [your name] is licensed as CC BY-NC 4.0. To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc/4.0/deed.sv</value>
+  </data>
+  <data name="cc_bync_title" xml:space="preserve">
+    <value>Creative Commons BY-NC 4.0</value>
+  </data>
+  <data name="cc_bynd_explanation" xml:space="preserve">
+    <value>The Creative Commons family of public copyright licenses has the primary goal of promoting free culture and open content. That's why they have developed several licenses with careful legal language and varying terms, to allow creators who want to contribute to choose a license that suits their needs.
+
+Licensing your work as CC BY-ND gives potential licensees — people interested in copying, using and distributing your work — the right to do so in ways that would otherwise violate copyright law. However, the permission is only valid as long as they comply with the terms of the license.
+
+First of all, the licensee may not modify the work (“No Derivatives”, ND): it must be distributed in its entirety and in its original form. However, the licensee may change its “format” or “medium”; in the case of music, for example, the licensee may offer it in various digital downloadable formats, play it on the radio, or the like. However, the work may not be used as part of a larger work, for example as background music in a film, even if unmodified in its entirety.
+
+In addition, the licensee must give due attribution to you as the creator (“by”), which usually means a written or verbal statement that names you, your work, and the license that applies to the work.
+
+Note that when you release your work under a public copyright license, the license applies only to other people. This means, for example, that those who want to use your work, but not under this license, can still negotiate a separate agreement with you.
+
+Finally, please note that the choice of license should be considered final and irreversible. An author with full rights can release his work at any time under freer terms or licenses, even retroactively (i.e. earlier creations and modified works), but should expect such a release to count as final and irreversible: an author can then release new works or modified works under a different license, but should assume that old works are always covered by their freest terms. It may therefore be better to start strictly and open up, rather than the other way around.</value>
+  </data>
+  <data name="cc_bynd_notice" xml:space="preserve">
+    <value>[title of work] © [year] by [your name] is licensed as CC BY-ND 4.0. To view a copy of this license, visit: https://creativecommons.org/licenses/by-nd/4.0/deed.sv</value>
+  </data>
+  <data name="cc_bynd_title" xml:space="preserve">
+    <value>Creative Commons BY-ND 4.0</value>
+  </data>
+  <data name="cc_bysa_explanation" xml:space="preserve">
+    <value>The Creative Commons family of public copyright licenses has the primary goal of promoting free culture and open content. That's why they have developed several licenses with careful legal language and varying terms, to allow creators who want to contribute to choose a license that suits their needs.
+
+Licensing your work as CC BY-SA gives potential licensees — people interested in copying, using, modifying and distributing your work — the right to do so in ways that would otherwise violate copyright law. However, the permission is only valid as long as they comply with the terms of the license.
+
+First of all, the licensee has to give a reasonable attribution to you as the creator (“by”), which usually means a written or verbal statement that names you, your work, and the license that applies to the work.
+
+In addition, the licensee must license their new work under exactly the same terms as your work (“Share Alike”, SA). This forces them to also contribute to free culture and open content, but in a way that respects your personal intentions for your material. It does, however, place restrictions on what other material a licensee can use to create a combined work with your material: they must have the right to license all the content of the new work as BY-SA.
+
+Note that when you release your work under a public copyright license, the license applies only to other people. This means, for example, that those who want to use your work, but not under this license, can still negotiate a separate agreement with you.
+
+Finally, please note that the choice of license should be considered final and irreversible. An author with full rights can release his work at any time under freer terms or licenses, even retroactively (i.e. earlier creations and modified works), but should expect such a release to count as final and irreversible: an author can then release new works or modified works under a different license, but should assume that old works are always covered by their freest terms. It may therefore be better to start strictly and open up, rather than the other way around.</value>
+  </data>
+  <data name="cc_bysa_notice" xml:space="preserve">
+    <value>[title of work] © [year] by [your name] is licensed as CC BY-SA 4.0. To view a copy of this license, visit: https://creativecommons.org/licenses/by-sa/4.0/deed.sv</value>
+  </data>
+  <data name="cc_bysa_title" xml:space="preserve">
+    <value>Creative Commons BY-SA 4.0</value>
+  </data>
+  <data name="cc_by_explanation" xml:space="preserve">
+    <value>The Creative Commons family of public copyright licenses has the primary goal of promoting free culture and open content. That's why they have developed several licenses with careful legal language and varying terms, to allow creators who want to contribute to choose a license that suits their needs.
+
+Licensing your work as CC BY gives potential licensees — people interested in copying, using, modifying and distributing your work — the right to do so in ways that would otherwise violate copyright. However, the permission is only valid as long as they give due attribution to you as the creator, which usually means a written or verbal statement that names you, your work, and the license that applies to the work.
+
+Note that when you release your work under a public copyright license, the license applies only to other people. This means, for example, that those who want to use your work, but not under this license, can still negotiate a separate agreement with you.
+
+Finally, please note that the choice of license should be considered final and irreversible. An author with full rights can release his work at any time under freer terms or licenses, even retroactively (i.e. earlier creations and modified works), but should expect such a release to count as final and irreversible: an author can then release new works or modified works under a different license, but should assume that old works are always covered by their freest terms. It may therefore be better to start strictly and open up, rather than the other way around.</value>
+  </data>
+  <data name="cc_by_notice" xml:space="preserve">
+    <value>[title of work] © [year] by [your name] is licensed as CC BY 4.0. To view a copy of this license, visit: https://creativecommons.org/licenses/by/4.0/deed.sv</value>
+  </data>
+  <data name="cc_by_title" xml:space="preserve">
+    <value>Creative Commons BY 4.0</value>
+  </data>
+  <data name="copyright_no" xml:space="preserve">
+    <value>No, I want my work to be distributed and come to use through a public agreement, even if it carries the risk that someone I despise may use or distribute it.</value>
+  </data>
+  <data name="copyright_question" xml:space="preserve">
+    <value>You are a creator of a work — a painting, novel, film, musical composition, scientific article, software documentation, photograph, architecture, choreography, technical drawing, sculpture, podcast recording, fashion design, or anything else protected by copyright.
+
+Suppose someone you despise uses or distributes your work without first having negotiated an agreement with you. Do you want this to be illegal?
+
+(“Someone you dislike” can be a person or an organization, such as for-profit, political, military, religious, local or global. Please also imagine that they want to use your work for purposes that are legal but that you personally despise, e.g. commercially, for propaganda purposes, in war, in trade with dictatorships, etc.)</value>
+  </data>
+  <data name="copyright_yes" xml:space="preserve">
+    <value>Yes, I want them to be forced to negotiate with me for the right to use or distribute my work. I want to be able to decide who gets to use the work, and make decisions on a case-by-case basis.</value>
+  </data>
+  <data name="full_copyright_explanation" xml:space="preserve">
+    <value>For full control, you should rely on the copyright that applies by default to all works that reach the threshold of originality. Almost all countries have signed agreements to enforce copyright laws with certain minimum protections, and to respect copyright in each other's countries. A creator of a work, such as a painting, novel, film, or musical composition, automatically has at least 50 years of exclusive economic and moral rights to determine how the work is copied and distributed, provided it is sufficiently original.
+
+Normal copyright applies even in the absence of a copyright notice, e.g. if you publish your work online without ever writing that you prohibit copying or distribution. Nevertheless, it is a good idea to be explicit to avoid misunderstandings, if only because many people are ignorant of copyright.
+
+Any individual or organization that wants to use your work legally must negotiate for your permission, usually through a written agreement. Please note that an author with full rights can offer his reserved work under freer terms or licenses at any time, even retroactively (i.e. previously created and modified work). However, such a release should be considered final and irrevocable: an author may subsequently release new or modified works under a different license, but should assume that old works are always covered by their freest terms.</value>
+  </data>
+  <data name="full_copyright_notice" xml:space="preserve">
+    <value>Copyright (c) [year] [your name]. All rights reserved.</value>
+  </data>
+  <data name="full_copyright_title" xml:space="preserve">
+    <value>No License</value>
+  </data>
+  <data name="noncommercial_no" xml:space="preserve">
+    <value>No, I want my work to be distributed and come to use, even if it carries the risk that someone I detest might use it to make money.</value>
+  </data>
+  <data name="noncommercial_question" xml:space="preserve">
+    <value>Suppose someone you despise uses or distributes your work commercially. Do you want this to be illegal?</value>
+  </data>
+  <data name="noncommercial_yes" xml:space="preserve">
+    <value>Yes, in order to use my work, I want them to be prevented from using it for profit.</value>
+  </data>
+  <data name="notice_label" xml:space="preserve">
+    <value>Example text that can be placed in combination with the work (e.g. in a book):</value>
+  </data>
+  <data name="no_derivatives_no" xml:space="preserve">
+    <value>No, I want my work to be distributed and come to use, even if it carries the risk of someone I despise making changes that I despise.</value>
+  </data>
+  <data name="no_derivatives_question" xml:space="preserve">
+    <value>Suppose someone you despise uses your work in some context. They have made their own changes to your work, e.g. cut out parts, translated language, changed color, increased pacing, used it as part of a larger work, etc. You despise the changes, possibly because you feel that it misrepresents your work, or because the changes go against your aesthetic sensibilities. Do you want this to be illegal?</value>
+  </data>
+  <data name="no_derivatives_yes" xml:space="preserve">
+    <value>Yes, in order to use my work, I want them to be prevented from making changes. My work should be kept intact.</value>
+  </data>
+  <data name="question_header" xml:space="preserve">
+    <value>#{0}:</value>
+  </data>
+  <data name="share_alike_no" xml:space="preserve">
+    <value>No, I want my work to be distributed and come to use, even if it carries the risk of it becoming part of a work that is "locked up" behind someone else's copyright.</value>
+  </data>
+  <data name="share_alike_question" xml:space="preserve">
+    <value>Suppose someone you despise uses your work as part of their own work, or possibly uses your work directly but with modifications. They assert their full copyright in their new work, and threaten to sue anyone who uses it without permission. Do you want their use of your work to be illegal?</value>
+  </data>
+  <data name="share_alike_yes" xml:space="preserve">
+    <value>Yes, in exchange for using my work, I want them to be forced to release their own work under the same conditions.</value>
+  </data>
+</root>

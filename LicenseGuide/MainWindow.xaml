@@ -1,0 +1,26 @@
+﻿<Window x:Class="LicenseGuide.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LicenseGuide"
+        xmlns:resx="clr-namespace:LicenseGuide.Resources"
+        mc:Ignorable="d"
+        Title="{x:Static resx:MainWindow.window_title}" Height="600" Width="700"
+        Icon="{StaticResource Icon}"
+        Background="{StaticResource BackgroundColor}"
+        Foreground="{StaticResource ForegroundColor}">
+    <ScrollViewer>
+        <StackPanel>
+            <GroupBox Header="{x:Static resx:MainWindow.window_title}" Margin="10 0 10 10">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Margin="10 5" Content="{x:Static resx:MainWindow.radiobutton_code}" IsChecked="True" Click="CodeButton_Click" Foreground="{StaticResource ForegroundColor}" />
+                    <RadioButton Margin="10 5" Content="{x:Static resx:MainWindow.radiobutton_font}" Click="FontButton_Click" Foreground="{StaticResource ForegroundColor}" />
+                    <RadioButton Margin="10 5" Content="{x:Static resx:MainWindow.radiobutton_content}" Click="ContentButton_Click" Foreground="{StaticResource ForegroundColor}" />
+                    <RadioButton Margin="10 5" Content="{x:Static resx:MainWindow.radiobutton_qanda}" Click="QAndAButton_Click" Foreground="{StaticResource ForegroundColor}" />
+                </StackPanel>
+            </GroupBox>
+            <Frame x:Name="codeFrame" NavigationUIVisibility="Hidden" Loaded="Frame_Loaded" />
+        </StackPanel>
+    </ScrollViewer>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Page x:Class="LicenseGuide.ContentAnswer"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:LicenseGuide"
+      xmlns:resx="clr-namespace:LicenseGuide.Resources"
+      mc:Ignorable="d"
+      Foreground="{StaticResource ForegroundColor}">
+    <StackPanel>
+        <TextBlock x:Name="answerTitle" TextAlignment="Center" TextWrapping="Wrap" Margin="20" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="500">License:</TextBlock>
+        <TextBlock x:Name="answerExplanation" TextWrapping="Wrap" Margin="20"
+                   Text="Fusce tincidunt, metus id aliquet fringilla, nulla leo ornare erat, vel mattis tellus dui sed nulla."/>
+        <Label Content="{x:Static resx:Content.notice_label}" Foreground="{StaticResource ForegroundColor}"/>
+        <TextBox x:Name="answerNotice" FontFamily="Global Monospace" TextWrapping="Wrap" Margin="20" IsReadOnly="True" MaxHeight="500" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                   Text="Fusce tincidunt, metus id aliquet fringilla, nulla leo ornare erat, vel mattis tellus dui sed nulla." Background="{StaticResource BackgroundColor}" Foreground="{StaticResource ForegroundColor}" />
+    </StackPanel>
+</Page>

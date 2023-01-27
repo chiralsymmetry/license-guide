@@ -1,0 +1,43 @@
+﻿<Page x:Class="LicenseGuide.QAndA"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:LicenseGuide"
+      xmlns:resx="clr-namespace:LicenseGuide.Resources"
+      mc:Ignorable="d"
+      Foreground="{StaticResource ForegroundColor}">
+    <Page.Resources>
+        <DataTemplate x:Key="ExpandingQAPair">
+            <Expander Foreground="{StaticResource ForegroundColor}">
+                <Expander.Header>
+                    <TextBlock Text="{Binding Q}" TextWrapping="Wrap" />
+                </Expander.Header>
+                <TextBlock Text="{Binding A}" TextWrapping="Wrap" Margin="10 10 10 30" />
+            </Expander>
+        </DataTemplate>
+    </Page.Resources>
+    <StackPanel>
+        <GroupBox Header="{x:Static resx:QAndA.group_general}">
+            <ItemsControl ItemsSource="{Binding GeneralPairs}" DataContext="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:QAndA}}}">
+                <ItemsControl.ItemTemplate>
+                    <StaticResource ResourceKey="ExpandingQAPair" />
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </GroupBox>
+        <GroupBox Header="{x:Static resx:QAndA.group_code}">
+            <ItemsControl ItemsSource="{Binding CodePairs}" DataContext="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:QAndA}}}">
+                <ItemsControl.ItemTemplate>
+                    <StaticResource ResourceKey="ExpandingQAPair" />
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </GroupBox>
+        <GroupBox Header="{x:Static resx:QAndA.group_font}">
+            <ItemsControl ItemsSource="{Binding FontPairs}" DataContext="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:QAndA}}}">
+                <ItemsControl.ItemTemplate>
+                    <StaticResource ResourceKey="ExpandingQAPair" />
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </GroupBox>
+    </StackPanel>
+</Page>

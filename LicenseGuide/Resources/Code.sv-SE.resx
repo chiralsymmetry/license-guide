@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="agpl_explanation" xml:space="preserve">
+    <value>GPL-familjen av mjukvarulicenser har som främsta mål att juridiskt förhindra att källkod till ett program kan hållas ifrån sina användare: de måste garanteras friheten att modifiera de program som de kör, menar man. Därför är det centralt att alla som offentliggör ett datorprogram som innehåller någon annans GPL-licenserade källkod också måste tillgängliggöra hela källkoden till hela programmet åt varje slutanvändare som ber om den, inklusive all källkod man skrivit själv, under samma licens: GPL-licensen ”sprids” i projektet. Så länge detta villkor uppfylls är det tillåtet att använda andras GPL-licenserade källkod till vilket syfte som helst, t.ex. kommersiellt. För att programanvändaren ska vara medveten om sina rättigheter måste alltid GPL-licensen följa med programmet i alla former, och för att användaren ska kunna köra modifieringar så måste utvecklaren också bifoga instruktioner för hur programmet ska byggas.
+
+”AGPL version 3 eller senare” innebär att en kodlånande utvecklare själv får välja vilken version av licensen som de vill släppa sin modifierade kod under – observera att nyare versioner är aldrig mindre strikta, endast mer, för att säkerställa målet om användarens frihet. I tidigare versioner av GPL fanns det ett kryphål i att program inte räknades som offentliggjorda när dess användare interagerade med dem över ett nätverk, och detta användes för att undanhålla dem den källkod som de egentligen skulle ha rätt till.
+
+Observera att GPL-licensen kan ”sprida sig” även till sådant som inte är programkod, t.ex. mediafiler, beroende på hur GPL-koden är strukturerad. Om man vill blanda licenser, t.ex. GPL och Creative Commons, kan det vara tydligast om dessa material hålls separerade, och att källkoden på något sätt fungerar utan deras närvaro.
+
+Observera även att när du släpper din egen ursprungliga källkod under en mjukvarulicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda din kod, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson kan släppa nya versioner med annan licens, men gamla versioner täcks ändå av den tidigare licensen. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="agpl_title" xml:space="preserve">
+    <value>GNU Affero General Public License (AGPL), version 3 eller senare</value>
+  </data>
+  <data name="bsdpatent_explanation" xml:space="preserve">
+    <value>För utvecklare som vill släppa sin källkod fri med minimalt huvudbry för eventuella kodlånare passar det bäst med en s.k. tillåtande licens, dock en licens med visst innehåll och villkor. Många utvecklare vill minimera krångel genom att avsäga sig alla rättigheter och skriva ”gör vad ni vill”, men detta kan faktiskt vara kontraproduktivt. I många länder är det inte juridiskt möjligt att helt avsäga sig alla rättigheter till sitt verk, så om man inte är tydlig så kan det innebära problem för de som vill använda källkoden. Ett annat problem gäller för kodlånare i länder som erkänner mjukvarupatent: källkod som är fri under upphovsrätt är inte automatiskt fri under patenträtt, så det kan bli en juridisk fälla. Slutligen kan det uppstå en risk för upphovspersonen själv: beroende på landet kan användaren av koden ha vissa lagstadgade garantier och rättigheter som gäller när inget annat anges, och om källkoden på något sätt är felaktig kan den ursprungliga utvecklaren hållas ansvarig.
+
+Den kortaste någorlunda vanliga licensen som tar hand om dessa problem är BSD-licensen med 2 klausuler plus patentklausul: den säger att koden får användas helt fritt i alla former, att oändlig rätt att använda eventuella patent i källkoden ingår, och att skaparen avsäger sig allt ansvar och alla garantier. Det enda villkoret för användning är att upphovsrättsnotisen finns kvar – detta är viktigt, om så bara för att ansvarsfriskrivningen ska vara förstådd och gälla. Ett plus är att den är kompatibel med GPLv2 och senare, vilket innebär att kod med denna licens får ”blandas” med GPLv2-licenserad kod utan att behöva licenseras om till GPLv2.
+
+För större kodprojekt, eller för ännu starkare försäkran, så kan det vara lämpligare att i stället använda ”Apache License, version 2.0”. Den är längre och tydligare, vilket kan uppskattas av bolag, och innehåller ännu starkare skydd mot patentstämningar, men innehåller dock också ett ytterligare villkor om att det ska vara tydligt om ändringar gjorts i originalkoden. Dessutom är den inte kompatibel med GPLv2 (dock med GPLv3).
+
+Observera även att när du släpper din egen ursprungliga källkod under en mjukvarulicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda din kod, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson kan släppa nya versioner med annan licens, men gamla versioner täcks ändå av den tidigare licensen. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="copyright_explanation" xml:space="preserve">
+    <value>För full kontroll bör du förlita dig på upphovsrätten som gäller som standard för alla verk som uppnår verkshöjd. Nästan alla länder har ingått avtal om att upprätthålla lagar om upphovsrätt med vissa minimiskydd, och att respektera upphovsrätt i varandras länder. En skapare av ett verk, som ett datorprogram, har automatiskt minst 50 års ekonomisk och moralisk ensamrätt att bestämma över hur verket kopieras och sprids, förutsatt att det är tillräckligt originellt. I regel gäller det att den som läser din upphovsrättsskyddade källkod också saknar rätten att kompilera och köra koden, även om de gör det privat för eget bruk: de har nästan ingen rätt utom den som du uttryckligen ger dem.
+
+Normal upphovsrätt gäller även vid avsaknad av upphovsrättsanspråk, t.ex. om man offentliggör sitt verk på nätet utan att någonsin skriva att man förbjuder kopiering eller spridning. Det är trots detta en god idé att vara uttrycklig för att slippa missförstånd, särskilt vad gäller programkod, som ju annars kan tros vara öppen källkod. Det kan också vara en extra liten försäkring att skicka med en friskrivning vad gäller garantier och möjliga skador som kan orsakas av programkoden, även om läsaren egentligen inte ens får köra koden.
+
+Varje enskild person eller organisation som vill använda din kod lagligt måste förhandla med dig om tillåtelse, oftast genom ett skriftligt avtal. Om man vill möjliggöra för t.ex. ideella organisationer att använda källkoden för ickekommersiella syften så kan man skriva att de kan ta kontakt för att få en särskild licens. Vill man separat från källkodsformen släppa kompilerade versioner av sitt program som freeware eller shareware kan man skriva och skicka med ett särskilt slutanvändaravtal.
+
+Observera att en upphovsperson med fulla rättigheter när som helst kan erbjuda sitt förbehållna verk under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare versioner). Dock bör en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya versioner med annan licens, men bör utgå från att gamla versioner alltid täcks av sina friaste villkor.</value>
+  </data>
+  <data name="copyright_title" xml:space="preserve">
+    <value>Ingen licens</value>
+  </data>
+  <data name="full_text_label" xml:space="preserve">
+    <value>Text som kan sättas i en LICENSE- eller COPYRIGHT-fil el.dyl.:</value>
+  </data>
+  <data name="gpl2_explanation" xml:space="preserve">
+    <value>GPL-familjen av mjukvarulicenser har som främsta mål att juridiskt förhindra att källkod till ett program kan hållas ifrån sina användare: de måste garanteras friheten att modifiera de program som de kör, menar man. Därför är det centralt att alla som offentliggör ett datorprogram som innehåller någon annans GPL-licenserade källkod också måste tillgängliggöra hela källkoden till hela programmet åt varje slutanvändare som ber om den, inklusive all källkod man skrivit själv, under samma licens: GPL-licensen ”sprids” i projektet. Så länge detta villkor uppfylls är det tillåtet att använda andras GPL-licenserade källkod till vilket syfte som helst, t.ex. kommersiellt. För att programanvändaren ska vara medveten om sina rättigheter måste alltid GPL-licensen följa med programmet i alla former, och för att användaren ska kunna köra modifieringar så måste utvecklaren också bifoga instruktioner för hur programmet ska byggas.
+
+”GPL version 2 eller senare” innebär att en kodlånande utvecklare själv får välja vilken version av licensen som de vill släppa sin modifierade kod under – observera att nyare versioner är aldrig mindre strikta, endast mer, för att säkerställa målet om användarens frihet. Version 2 kan användas när man är mindre fokuserad på programanvändarens frihet, och mer på idén om att gemensamt förbättra källkod genom att tvinga källkodspridning.
+
+Observera att GPL-licensen kan ”sprida sig” även till sådant som inte är programkod, t.ex. mediafiler, beroende på hur GPL-koden är strukturerad. Om man vill blanda licenser, t.ex. GPL och Creative Commons, kan det vara tydligast om dessa material hålls separerade, och att källkoden på något sätt fungerar utan deras närvaro.
+
+Observera även att när du släpper din egen ursprungliga källkod under en mjukvarulicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda din kod, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson kan släppa nya versioner med annan licens, men gamla versioner täcks ändå av den tidigare licensen. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="gpl2_title" xml:space="preserve">
+    <value>GNU General Public License (GPL), version 2 eller senare</value>
+  </data>
+  <data name="gpl3_explanation" xml:space="preserve">
+    <value>GPL-familjen av mjukvarulicenser har som främsta mål att juridiskt förhindra att källkod till ett program kan hållas ifrån sina användare: de måste garanteras friheten att modifiera de program som de kör, menar man. Därför är det centralt att alla som offentliggör ett datorprogram som innehåller någon annans GPL-licenserade källkod också måste tillgängliggöra hela källkoden till hela programmet åt varje slutanvändare som ber om den, inklusive all källkod man skrivit själv, under samma licens: GPL-licensen ”sprids” i projektet. Så länge detta villkor uppfylls är det tillåtet att använda andras GPL-licenserade källkod till vilket syfte som helst, t.ex. kommersiellt. För att programanvändaren ska vara medveten om sina rättigheter måste alltid GPL-licensen följa med programmet i alla former, och för att användaren ska kunna köra modifieringar så måste utvecklaren också bifoga instruktioner för hur programmet ska byggas.
+
+”GPL version 3 eller senare” innebär att en kodlånande utvecklare själv får välja vilken version av licensen som de vill släppa sin modifierade kod under – observera att nyare versioner är aldrig mindre strikta, endast mer, för att säkerställa målet om användarens frihet. I tidigare versioner fanns det ett kryphål i att hårdvarutillverkare kunde släppa källkoden de skapat, men ändå kunde undanhålla sina användare förmågan att modifiera mjukvaran som körs.
+
+Observera att GPL-licensen kan ”sprida sig” även till sådant som inte är programkod, t.ex. mediafiler, beroende på hur GPL-koden är strukturerad. Om man vill blanda licenser, t.ex. GPL och Creative Commons, kan det vara tydligast om dessa material hålls separerade, och att källkoden på något sätt fungerar utan deras närvaro.
+
+Observera även att när du släpper din egen ursprungliga källkod under en mjukvarulicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda din kod, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson kan släppa nya versioner med annan licens, men gamla versioner täcks ändå av den tidigare licensen. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="gpl3_title" xml:space="preserve">
+    <value>GNU General Public License (GPL), version 3 eller senare</value>
+  </data>
+  <data name="lgpl_explanation" xml:space="preserve">
+    <value>GPL-familjen av mjukvarulicenser har som främsta mål att juridiskt förhindra att källkod till ett program kan hållas ifrån sina användare: de måste garanteras friheten att modifiera de program som de kör, menar man. I de huvudsakliga GPL-licenserna är det därför centralt att alla som offentliggör ett datorprogram som innehåller någon annans GPL-licenserade källkod också måste tillgängliggöra hela källkoden till hela programmet åt varje slutanvändare som ber om den, inklusive all källkod man skrivit själv, under samma licens – GPL-licensen ”sprids” i projektet –, och för att programanvändaren ska vara medveten om sina rättigheter måste alltid GPL-licensen följa med programmet i alla former.
+
+Den ”förminskade” versionen är mindre strikt, och främst avsedd för biblioteksmjukvara. Den kräver inte att källkoden till det biblioteksanvändande programmet släpps, så länge biblioteket är oförändrat och användandet sker dynamiskt (d.v.s. att den egna källkoden endast refererar till bibliotekets funktionalitet, inte innehåller själva implementationerna). Ytterligare måste utvecklaren möjliggöra att biblioteket ersätts; t.ex. får de inte förbjuda programanvändaren att genomföra rekonstruktion/analys för ändamålet.
+
+”LGPL version 2.1 eller senare” innebär att en kodlånande utvecklare själv får välja vilken version av licensen som de vill släppa sin modifierade kod under – observera att nyare versioner är aldrig mindre strikta, endast mer, för att säkerställa målet om användarens frihet.
+
+Observera att GPL-licensen kan ”sprida sig” även till sådant som inte är programkod, t.ex. mediafiler, beroende på hur GPL-koden är strukturerad. Om man vill blanda licenser, t.ex. GPL och Creative Commons, kan det vara tydligast om dessa material hålls separerade, och att källkoden på något sätt fungerar utan deras närvaro.
+
+Observera även att när du släpper din egen ursprungliga källkod under en mjukvarulicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda din kod, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson kan släppa nya versioner med annan licens, men gamla versioner täcks ändå av den tidigare licensen. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="lgpl_title" xml:space="preserve">
+    <value>GNU Lesser General Public License (LGPL), version 2.1 eller senare</value>
+  </data>
+  <data name="netservice_no" xml:space="preserve">
+    <value>Nej, jag vill att min källkod ska kunna spridas och komma till nytta, även om det innebär risken att den hamnar i sluten källkod bakom nätverkstjänster.</value>
+  </data>
+  <data name="netservice_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr använder din källkod som delkomponent i mjukvara. Kanske har de modifierat din källkod, möjligtvis är den orörd. Mjukvaran driver en nätverkstjänst för ett lagligt syfte som du avskyr, och dess användare (ex. kunder eller allmänheten) interagerar med mjukvaran endast över nätverk, d.v.s. att den inte körs direkt på användarnas egna datorer. Tjänstleverantören håller all källkod bakom mjukvaran hemlig. Vill du att detta ska vara olagligt?</value>
+  </data>
+  <data name="netservice_yes" xml:space="preserve">
+    <value>Ja, för att få använda min källkod vill jag att de ska tvingas tillgängliggöra åt sina slutanvändare all källkod till mjukvaran som driver tjänsten, även den källkod som inte jag har skrivit.</value>
+  </data>
+  <data name="opensource_no" xml:space="preserve">
+    <value>Nej, jag vill att min källkod ska kunna spridas och komma till nytta genom ett allmänt gällande avtal, även om det innebär risken att någon som jag avskyr kan komma att använda eller sprida källkoden.</value>
+  </data>
+  <data name="opensource_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr använder eller sprider din källkod utan att först ha förhandlat med dig om din tillåtelse. Vill du att detta ska vara olagligt?
+
+("Någon som du avskyr" kan vara en person eller en organisation, t.ex. vinstdrivande, politisk, militär, religiös, lokal eller global. Föreställ dig gärna också att de vill använda din mjukvara för ändamål som är lagliga men som du personligen avskyr, t.ex. kommersiellt, för propagandasyften, i krig, i handel med diktaturer, etc.)</value>
+  </data>
+  <data name="opensource_yes" xml:space="preserve">
+    <value>Ja, jag vill att de ska tvingas förhandla med mig om rätten att använda eller sprida min källkod. Jag vill kunna bestämma över vem som får använda källkoden, och fatta beslut i varje enskilt fall.</value>
+  </data>
+  <data name="short_text_label" xml:space="preserve">
+    <value>Exempel på text som kan sättas i toppen av en källfil (C-/Java-stil):</value>
+  </data>
+  <data name="strong_copyleft_no" xml:space="preserve">
+    <value>Nej, jag vill att min källkod ska kunna spridas och komma till nytta, även om det innebär risken att den används av sluten mjukvara.</value>
+  </data>
+  <data name="strong_copyleft_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr tillverkar och distribuerar mjukvara i binär (kompilerad) form. Som delkomponent använder de din källkod. Kanske har de modifierat din källkod, möjligtvis är den orörd. De har inte gjort källkoden till sin mjukvara tillgänglig för mjukvarans slutanvändare. Vill du att detta ska vara olagligt?</value>
+  </data>
+  <data name="strong_copyleft_yes" xml:space="preserve">
+    <value>Ja, för att få använda min källkod vill jag att mjukvaruutvecklarna ska tvingas göra sin egen källkod tillgänglig åt sina slutanvändare.</value>
+  </data>
+  <data name="tivoization_no" xml:space="preserve">
+    <value>Nej, jag vill att min källkod ska kunna spridas och komma till nytta, även om det innebär risken att den används för att driva sluten hårdvara.</value>
+  </data>
+  <data name="tivoization_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr tillverkar och distribuerar hårdvara för någon viss grupp slutanvändare. För att driva hårdvaran använder de din källkod som delkomponent. Kanske har de modifierat din källkod, möjligtvis är den orörd. Källkoden till mjukvaran har gjorts tillgänglig för varje person som vill ha den. Hårdvaran är dock konstruerad sådan att en slutanvändare inte har möjlighet att kompilera och köra den källkoden, inte ens omodifierad källkod. Vill du att detta ska vara olagligt?</value>
+  </data>
+  <data name="tivoization_yes" xml:space="preserve">
+    <value>Ja, för att få använda min källkod vill jag att hårdvarutillverkarna ska tvingas låta sina slutanvändare köra egenkompilerad modifierad källkod.</value>
+  </data>
+  <data name="weak_copyleft_no" xml:space="preserve">
+    <value>Nej, jag vill att min källkod ska kunna spridas och komma till nytta, så länge det inte medför någon risk för mig personligen.</value>
+  </data>
+  <data name="weak_copyleft_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr tillverkar och distribuerar mjukvara i binär (kompilerad) form. Som delkomponent använder de din källkod, möjligtvis modifierad, och har gjort din källkod tillgänglig för alla slutanvändare som vill ha den (med eventuella ändringar). De har dock inte gjort sin egen källkod tillgänglig för alla slutanvändare som vill ha den. Det är inte heller möjligt för mjukvarans slutanvändare att byta ut eller modifiera din delkomponent av mjukvaran. Vill du att detta ska vara olagligt?</value>
+  </data>
+  <data name="weak_copyleft_yes" xml:space="preserve">
+    <value>Ja, de kan få hålla sin egen källkod sluten, men för att få använda min källkod vill jag att mjukvaruutvecklarna ska tvingas låta sina slutanvändare byta ut och modifiera åtminstone min delkomponent.</value>
+  </data>
+</root>

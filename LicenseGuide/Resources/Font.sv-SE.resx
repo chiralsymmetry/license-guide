@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="attribution_no" xml:space="preserve">
+    <value>Nej, jag vill att min fontfil ska kunna spridas och komma till nytta, även om det innebär risken att jag inte får erkännelse som fontfilens skapare.</value>
+  </data>
+  <data name="attribution_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr sprider din fontfil. Ingenstans skriver de att det är du som skapat fontfilen. Vill du att detta ska vara olagligt?</value>
+  </data>
+  <data name="attribution_yes" xml:space="preserve">
+    <value>Ja, de kan få använda min font i tryckmaterial och liknande utan att ange mitt namn, men för att få sprida min fontfil vill jag att de ska tvingas erkänna mig som fontfilens skapare.</value>
+  </data>
+  <data name="cc0_explanation" xml:space="preserve">
+    <value>Creative Commons-familjen av offentliga upphovsrättslicenser har som främsta mål att främja fri kultur och öppet innehåll. Därför har de tagit fram flera licenser med noggrann juridisk utformning och olika villkor, så att upphovspersoner som vill bidra kan välja en licens som passar deras önskemål.
+
+Om du licenserar/markerar din fontfil som CC0 visar du din avsikt att permanent avsäga dig alla upphovsrättigheter, så långt lagen tillåter, utan något som helst krav på kompensation eller tillskrivning. (Observera att tillståndet endast gäller upphovsrätt, inte varumärken eller patent.)
+
+Observera att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson som släpper sin fontfil under CC0 bör räkna med att en sådan befrielse räknas som slutgiltig och omöjlig att ångra; upphovspersonen kan skapa nya eller modifierade fontfiler med andra villkor eller licenser, men bör utgå från att gamla fontfiler alltid täcks av sina friaste villkor. Däremot kan en upphovsperson som släpper en fontfil under striktare villkor/licenser när som helst släppa fontfilen fritt, även retroaktivt (d.v.s. tidigare skapade och modifierade fontfiler). Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="copyright_no" xml:space="preserve">
+    <value>Nej, jag vill att min fontfil ska kunna spridas och komma till nytta genom ett allmänt gällande avtal, även om det innebär risken att någon som jag avskyr kan komma att använda eller sprida fontfilen.</value>
+  </data>
+  <data name="copyright_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr använder eller sprider din fontfil utan att först ha förhandlat med dig om din tillåtelse. Vill du att detta ska vara olagligt?
+
+(”Någon som du avskyr” kan vara en person eller en organisation, t.ex. vinstdrivande, politisk, militär, religiös, lokal eller global. Föreställ dig gärna också att de vill använda din fontfil för ändamål som är lagliga men som du personligen avskyr, t.ex. kommersiellt, för propagandasyften, i krig, i handel med diktaturer, etc.)</value>
+  </data>
+  <data name="copyright_yes" xml:space="preserve">
+    <value>Ja, jag vill att de ska tvingas förhandla med mig om rätten att använda eller sprida min fontfil. Jag vill kunna bestämma över vem som får använda fontfilen, och fatta beslut i varje enskilt fall.</value>
+  </data>
+  <data name="derivative_no" xml:space="preserve">
+    <value>Nej, jag vill att min fontfil ska kunna spridas och komma till nytta, även om det innebär risken att någon som jag avskyr gör ändringar som jag avskyr.</value>
+  </data>
+  <data name="derivative_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr använder din fontfil i något sammanhang. De har gjort sina egna ändringar av din fontfil, t.ex. ändrat några former eller lagt till glyfer. Du avskyr ändringarna, möjligtvis för att du anser att det felrepresenterar ditt verk, eller att ändringarna strider mot din estetiska känsla. Vill du att detta ska vara olagligt?</value>
+  </data>
+  <data name="derivative_yes" xml:space="preserve">
+    <value>Ja, för att få använda min fontfil vill jag att de ska förhindras från att göra ändringar. Min fontfil ska hållas orörd.</value>
+  </data>
+  <data name="full_copyright_explanation" xml:space="preserve">
+    <value>För full kontroll bör du förlita dig på upphovsrätten som gäller som standard för alla verk som uppnår verkshöjd. Nästan alla länder har ingått avtal om att upprätthålla lagar om upphovsrätt med vissa minimiskydd, och att respektera upphovsrätt i varandras länder. En skapare av ett verk, som en fontfil, har automatiskt minst 50 års ekonomisk och moralisk ensamrätt att bestämma över hur verket kopieras och sprids, förutsatt att det är tillräckligt originellt.
+
+Normal upphovsrätt gäller även vid avsaknad av upphovsrättsanspråk, t.ex. om man offentliggör sin fontfil på nätet utan att någonsin skriva att man förbjuder användning, kopiering eller spridning. Det är trots detta en god idé att vara uttrycklig för att slippa missförstånd, om så bara för att fontfiler ofta erbjuds fritt på nätet.
+
+Varje enskild person eller organisation som vill använda din fontfil lagligt måste förhandla med dig om tillåtelse, oftast genom ett skriftligt avtal. Observera att en upphovsperson med fulla rättigheter när som helst kan erbjuda sin förbehållna fontfil under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare skapelser och modifierade fontfiler). Dock bör en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya eller modiferade fontfiler med annan licens, men bör utgå från att gamla fontfiler alltid täcks av sina friaste villkor.</value>
+  </data>
+  <data name="full_copyright_title" xml:space="preserve">
+    <value>Ingen licens</value>
+  </data>
+  <data name="license_label" xml:space="preserve">
+    <value>Exempel på text som kan sättas i en LICENSE- eller COPYRIGHT-fil el.dyl.:</value>
+  </data>
+  <data name="ofl_explanation" xml:space="preserve">
+    <value>Open Font License, eller OFL, är en fontlicens skapad av språkforskarorganisationen SIL, tänkt att vara ideologiskt kompatibel med mjukvaruvärldens GPL-licens: användaren av en OFL-licenserad fontfil ska ha rätt att använda fontfilen till vilket syfte som helst och att modifiera fontfilen enligt behov, men måste vid ändringar distribuera fontfilen med dess ändringar under samma licens (OFL 1.1).
+
+I rutan nedanför ges den fulla texten till OFL, men se avsnittet ”Using the OFL” på webbsidan https://scripts.sil.org/ofl för mer exakta riktlinjer för hur licensen bör anges.
+
+Om OFL är olämplig kan du använda licensguiden för övrigt material och välja en Creative Commons-licens. Observera dock att det kan vara opassande med en ”No Derivatives”-licens (d.v.s. förbud mot att skapa verk som bygger på ditt verk) om avsikten bara är att förbjuda modifiering av fontfiler, eftersom det möjligtvis också skulle kunna förbjuda normal användning av fontfilen.</value>
+  </data>
+  <data name="use_only_explanation" xml:space="preserve">
+    <value>Om man vill tillåta fri användning – alltså sådant som att använda fonten för tryckmaterial – och spridning, men förbjuda ändring, kan det enda alternativet i brist på lämpliga färdiga licenser vara en specialskriven licens, trots att det kan vara svårt att uttrycka sig på ett sätt som både säkrar juridiskt ens avsikter, och är tillräckligt lättbegripligt för användare. Nedanför ges ett förslag tänkt att tillåta privat och kommersiell användning och spridning, men förbjuda modifiering.
+
+Observera att en upphovsperson med fulla rättigheter när som helst kan släppa sin fontfil under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare skapade och modifierade fontfiler), men bör räkna med att en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya eller modiferade fontfiler med annan licens, men bör utgå från att gamla fontfiler alltid täcks av sina friaste villkor. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="use_only_title" xml:space="preserve">
+    <value>Specialskriven licens</value>
+  </data>
+</root>

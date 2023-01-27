@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="attribution_no" xml:space="preserve">
+    <value>Nej, jag vill att mitt verk ska kunna spridas och komma till nytta, även om det innebär risken att jag inte får erkännelse som verkets skapare.</value>
+  </data>
+  <data name="attribution_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr använder eller sprider ditt verk. Ingenstans skriver de att det är du som skapat verket. Vill du att detta ska vara olagligt?</value>
+  </data>
+  <data name="attribution_yes" xml:space="preserve">
+    <value>Ja, för att få använda mitt verk vill jag att de ska tvingas erkänna mig som verkets skapare.</value>
+  </data>
+  <data name="cc0_explanation" xml:space="preserve">
+    <value>Creative Commons-familjen av offentliga upphovsrättslicenser har som främsta mål att främja fri kultur och öppet innehåll. Därför har de tagit fram flera licenser med noggrann juridisk utformning och olika villkor, så att upphovspersoner som vill bidra kan välja en licens som passar deras önskemål.
+
+Om du licenserar/markerar ditt verk som CC0 visar du din avsikt att permanent avsäga dig alla upphovsrättigheter, så långt lagen tillåter, utan något som helst krav på kompensation eller tillskrivning. (Observera att tillståndet endast gäller upphovsrätt, inte varumärken eller patent. Man kan heller inte avsäga andra personers rättigheter; exempel: du kan avsäga dig upphovsrätten för ditt fotografi av en annan människa, men om den personen har ”publicitetsrätt” att bestämma över sin avbildning så kan du inte avsäga den rätten.)
+
+Observera att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson som släpper sitt verk under CC0 bör räkna med att en sådan befrielse räknas som slutgiltig och omöjlig att ångra; upphovspersonen kan skapa nya eller modifierade verk med andra villkor eller licenser, men bör utgå från att gamla verk alltid täcks av sina friaste villkor. Däremot kan en upphovsperson som släpper ett verk under striktare villkor/licenser när som helst släppa verket fritt, även retroaktivt (d.v.s. tidigare skapelser och modifierade verk). Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="cc0_notice" xml:space="preserve">
+    <value>[title of work] av [your name] licenseras/markeras som CC0 1.0 Universal. För att läsa licensens innehåll, besök: https://creativecommons.org/publicdomain/zero/1.0/deed.sv</value>
+  </data>
+  <data name="cc_byncnd_explanation" xml:space="preserve">
+    <value>Creative Commons-familjen av offentliga upphovsrättslicenser har som främsta mål att främja fri kultur och öppet innehåll. Därför har de tagit fram flera licenser med noggrann juridisk utformning och olika villkor, så att upphovspersoner som vill bidra kan välja en licens som passar deras önskemål.
+
+Om du licenserar ditt verk som CC BY-NC-ND ger det potentiella licenstagare – alltså personer intresserade av att kopiera, använda och sprida ditt verk – rätten att göra detta på sätt som annars skulle strida mot upphovsrätten. Dock gäller endast tillståndet så länge de följer villkoren i licensen.
+
+Först och främst får de inte använda ditt verk för kommersiella syften (eng. ”Non-Commercial”, NC), vilket definieras som situationer där användningen har ”främsta avsikten” att tjäna pengar eller komma till kommersiell gagn. Detta är oberoende av huruvida licenstagaren i sig är en vinstdrivande organisation.
+
+Därtill får licenstagaren inte modifiera verket (eng. ”No Derivatives”, ND): det måste spridas i sin helhet och i sitt originalskick. Licenstagare får dock ändra dess ”format” eller ”medium”; om det är tal om musik kan licenstagaren exempelvis erbjuda den i olika digitala nedladdningsbara format, spela den på radio, eller liknande. Verket får dock inte användas som del i ett större verk, t.ex. som bakgrundsmusik i en film, även omodifierat i sin helhet.
+
+Slutligen måste licenstagaren ge ett för mediet rimligt erkännande till dig som skapare (eng. ”Attribution”, ”by”), vilket i regel innebär ett skriftligt eller verbalt uttalande som namnger dig, ditt verk, och licensen som gäller för verket.
+
+Observera att när du släpper ditt verk under en offentlig upphovsrättslicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda ditt verk, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson med fulla rättigheter kan när som helst släppa sitt verk under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare skapelser och modifierade verk), men bör räkna med att en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya verk eller modiferade verk med annan licens, men bör utgå från att gamla verk alltid täcks av sina friaste villkor. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="cc_byncnd_notice" xml:space="preserve">
+    <value>[title of work] © [year] av [your name] licenseras som CC BY-NC-ND 4.0. För att läsa licensens innehåll, besök: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.sv</value>
+  </data>
+  <data name="cc_byncsa_explanation" xml:space="preserve">
+    <value>Creative Commons-familjen av offentliga upphovsrättslicenser har som främsta mål att främja fri kultur och öppet innehåll. Därför har de tagit fram flera licenser med noggrann juridisk utformning och olika villkor, så att upphovspersoner som vill bidra kan välja en licens som passar deras önskemål.
+
+Om du licenserar ditt verk som CC BY-NC-SA ger det potentiella licenstagare – alltså personer intresserade av att kopiera, använda, ändra och sprida ditt verk – rätten att göra detta på sätt som annars skulle strida mot upphovsrätten. Dock gäller endast tillståndet så länge de följer villkoren i licensen.
+
+Först och främst får de inte använda ditt verk för kommersiella syften (eng. ”Non-Commercial”, NC), vilket definieras som situationer där användningen har ”främsta avsikten” att tjäna pengar eller komma till kommersiell gagn. Detta är oberoende av huruvida licenstagaren i sig är en vinstdrivande organisation.
+
+Därtill måste licenstagaren ge ett för mediet rimligt erkännande till dig som skapare (eng. ”Attribution”, ”by”), vilket i regel innebär ett skriftligt eller verbalt uttalande som namnger dig, ditt verk, och licensen som gäller för verket.
+
+Slutligen måste licenstagaren licensera sitt nya verk under precis samma villkor som ditt verk (eng. ”Share Alike”, SA). Detta tvingar dem att också bidra till fri kultur och öppet innehåll, men på ett sätt som respekterar dina personliga avsikter för ditt material. Det innebär dock begränsningar på vilket övrigt material en licenstagare kan använda för att skapa ett kombinerat verk med ditt material: de måste ju ha rätt att licensera allt innehåll i det nya verket som BY-NC-SA.
+
+Observera att när du släpper ditt verk under en offentlig upphovsrättslicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda ditt verk, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson med fulla rättigheter kan när som helst släppa sitt verk under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare skapelser och modifierade verk), men bör räkna med att en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya verk eller modiferade verk med annan licens, men bör utgå från att gamla verk alltid täcks av sina friaste villkor. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="cc_byncsa_notice" xml:space="preserve">
+    <value>[title of work] © [year] av [your name] licenseras som CC BY-NC-SA 4.0. För att läsa licensens innehåll, besök: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.sv</value>
+  </data>
+  <data name="cc_bync_explanation" xml:space="preserve">
+    <value>Creative Commons-familjen av offentliga upphovsrättslicenser har som främsta mål att främja fri kultur och öppet innehåll. Därför har de tagit fram flera licenser med noggrann juridisk utformning och olika villkor, så att upphovspersoner som vill bidra kan välja en licens som passar deras önskemål.
+
+Om du licenserar ditt verk som CC BY-NC ger det potentiella licenstagare – alltså personer intresserade av att kopiera, använda, ändra och sprida ditt verk – rätten att göra detta på sätt som annars skulle strida mot upphovsrätten. Dock gäller endast tillståndet så länge de följer villkoren i licensen.
+
+Först och främst får de inte använda ditt verk för kommersiella syften (eng. ”Non-Commercial”, NC), vilket definieras som situationer där användningen har ”främsta avsikten” att tjäna pengar eller komma till kommersiell gagn. Detta är oberoende av huruvida licenstagaren i sig är en vinstdrivande organisation.
+
+Därtill måste licenstagaren ge ett för mediet rimligt erkännande till dig som skapare (eng. ”Attribution”, ”by”), vilket i regel innebär ett skriftligt eller verbalt uttalande som namnger dig, ditt verk, och licensen som gäller för verket.
+
+Observera att när du släpper ditt verk under en offentlig upphovsrättslicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda ditt verk, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson med fulla rättigheter kan när som helst släppa sitt verk under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare skapelser och modifierade verk), men bör räkna med att en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya verk eller modiferade verk med annan licens, men bör utgå från att gamla verk alltid täcks av sina friaste villkor. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="cc_bync_notice" xml:space="preserve">
+    <value>[title of work] © [year] av [your name] licenseras som CC BY-NC 4.0. För att läsa licensens innehåll, besök: https://creativecommons.org/licenses/by-nc/4.0/deed.sv</value>
+  </data>
+  <data name="cc_bynd_explanation" xml:space="preserve">
+    <value>Creative Commons-familjen av offentliga upphovsrättslicenser har som främsta mål att främja fri kultur och öppet innehåll. Därför har de tagit fram flera licenser med noggrann juridisk utformning och olika villkor, så att upphovspersoner som vill bidra kan välja en licens som passar deras önskemål.
+
+Om du licenserar ditt verk som CC BY-ND ger det potentiella licenstagare – alltså personer intresserade av att kopiera, använda och sprida ditt verk – rätten att göra detta på sätt som annars skulle strida mot upphovsrätten. Dock gäller endast tillståndet så länge de följer villkoren i licensen.
+
+Först och främst får licenstagaren inte modifiera verket (eng. ”No Derivatives”, ND): det måste spridas i sin helhet och i sitt originalskick. Licenstagare får dock ändra dess ”format” eller ”medium”; om det är tal om musik kan licenstagaren exempelvis erbjuda den i olika digitala nedladdningsbara format, spela den på radio, eller liknande. Verket får dock inte användas som del i ett större verk, t.ex. som bakgrundsmusik i en film, även omodifierat i sin helhet.
+
+Därtill måste licenstagaren ge ett för mediet rimligt erkännande till dig som skapare (eng. ”Attribution”, ”by”), vilket i regel innebär ett skriftligt eller verbalt uttalande som namnger dig, ditt verk, och licensen som gäller för verket.
+
+Observera att när du släpper ditt verk under en offentlig upphovsrättslicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda ditt verk, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson med fulla rättigheter kan när som helst släppa sitt verk under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare skapelser och modifierade verk), men bör räkna med att en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya verk eller modiferade verk med annan licens, men bör utgå från att gamla verk alltid täcks av sina friaste villkor. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="cc_bynd_notice" xml:space="preserve">
+    <value>[title of work] © [year] av [your name] licenseras som CC BY-ND 4.0. För att läsa licensens innehåll, besök: https://creativecommons.org/licenses/by-nd/4.0/deed.sv</value>
+  </data>
+  <data name="cc_bysa_explanation" xml:space="preserve">
+    <value>Creative Commons-familjen av offentliga upphovsrättslicenser har som främsta mål att främja fri kultur och öppet innehåll. Därför har de tagit fram flera licenser med noggrann juridisk utformning och olika villkor, så att upphovspersoner som vill bidra kan välja en licens som passar deras önskemål.
+
+Om du licenserar ditt verk som CC BY-SA ger det potentiella licenstagare – alltså personer intresserade av att kopiera, använda, ändra och sprida ditt verk – rätten att göra detta på sätt som annars skulle strida mot upphovsrätten. Dock gäller endast tillståndet så länge de följer villkoren i licensen.
+
+Först och främst måste licenstagaren ge ett för mediet rimligt erkännande till dig som skapare (eng. ”Attribution”, ”by”), vilket i regel innebär ett skriftligt eller verbalt uttalande som namnger dig, ditt verk, och licensen som gäller för verket.
+
+Därtill måste licenstagaren licensera sitt nya verk under precis samma villkor som ditt verk (eng. ”Share Alike”, SA). Detta tvingar dem att också bidra till fri kultur och öppet innehåll, men på ett sätt som respekterar dina personliga avsikter för ditt material. Det innebär dock begränsningar på vilket övrigt material en licenstagare kan använda för att skapa ett kombinerat verk med ditt material: de måste ju ha rätt att licensera allt innehåll i det nya verket som BY-SA.
+
+Observera att när du släpper ditt verk under en offentlig upphovsrättslicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda ditt verk, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson med fulla rättigheter kan när som helst släppa sitt verk under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare skapelser och modifierade verk), men bör räkna med att en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya verk eller modiferade verk med annan licens, men bör utgå från att gamla verk alltid täcks av sina friaste villkor. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="cc_bysa_notice" xml:space="preserve">
+    <value>[title of work] © [year] av [your name] licenseras som CC BY-SA 4.0. För att läsa licensens innehåll, besök: https://creativecommons.org/licenses/by-sa/4.0/deed.sv</value>
+  </data>
+  <data name="cc_by_explanation" xml:space="preserve">
+    <value>Creative Commons-familjen av offentliga upphovsrättslicenser har som främsta mål att främja fri kultur och öppet innehåll. Därför har de tagit fram flera licenser med noggrann juridisk utformning och olika villkor, så att upphovspersoner som vill bidra kan välja en licens som passar deras önskemål.
+
+Om du licenserar ditt verk som CC BY ger det potentiella licenstagare – alltså personer intresserade av att kopiera, använda, ändra och sprida ditt verk – rätten att göra detta på sätt som annars skulle strida mot upphovsrätten. Dock gäller endast tillståndet så länge de ger ett för mediet rimligt erkännande till dig som skapare (eng. ”Attribution”, ”by”), vilket i regel innebär ett skriftligt eller verbalt uttalande som namnger dig, ditt verk, och licensen som gäller för verket.
+
+Observera att när du släpper ditt verk under en offentlig upphovsrättslicens så gäller licensen endast andra personer. Det betyder t.ex. att de som vill använda ditt verk, men inte under denna licens, fortfarande kan förhandla med dig om ett separat avtal.
+
+Observera slutligen att valet av licens bör räknas som slutgiltigt och omöjligt att ångra. En upphovsperson med fulla rättigheter kan när som helst släppa sitt verk under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare skapelser och modifierade verk), men bör räkna med att en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya verk eller modiferade verk med annan licens, men bör utgå från att gamla verk alltid täcks av sina friaste villkor. Det kan därför vara bättre att börja strikt och öppna upp, än tvärtom.</value>
+  </data>
+  <data name="cc_by_notice" xml:space="preserve">
+    <value>[title of work] © [year] av [your name] licenseras som CC BY 4.0. För att läsa licensens innehåll, besök: https://creativecommons.org/licenses/by/4.0/deed.sv</value>
+  </data>
+  <data name="copyright_no" xml:space="preserve">
+    <value>Nej, jag vill att mitt verk ska kunna spridas och komma till nytta genom ett allmänt gällande avtal, även om det innebär risken att någon som jag avskyr kan komma att använda eller sprida verket.</value>
+  </data>
+  <data name="copyright_question" xml:space="preserve">
+    <value>Du är en skapare av ett verk – alltså en målning, roman, film, musikalisk komposition, vetenskaplig artikel, mjukvarudokumentation, fotografi, arkitektur, koreografi, teknisk ritning, skulptur, poddradioinspelning, modedesign, eller något annat som skyddas av upphovsrätt.
+
+Antag att någon som du avskyr använder eller sprider ditt verk utan att först ha förhandlat med dig om din tillåtelse. Vill du att detta ska vara olagligt?
+
+("Någon som du avskyr" kan vara en person eller en organisation, t.ex. vinstdrivande, politisk, militär, religiös, lokal eller global. Föreställ dig gärna också att de vill använda ditt verk för ändamål som är lagliga men som du personligen avskyr, t.ex. kommersiellt, för propagandasyften, i krig, i handel med diktaturer, etc.)</value>
+  </data>
+  <data name="copyright_yes" xml:space="preserve">
+    <value>Ja, jag vill att de ska tvingas förhandla med mig om rätten att använda eller sprida mitt verk. Jag vill kunna bestämma över vem som får använda verket, och fatta beslut i varje enskilt fall.</value>
+  </data>
+  <data name="full_copyright_explanation" xml:space="preserve">
+    <value>För full kontroll bör du förlita dig på upphovsrätten som gäller som standard för alla verk som uppnår verkshöjd. Nästan alla länder har ingått avtal om att upprätthålla lagar om upphovsrätt med vissa minimiskydd, och att respektera upphovsrätt i varandras länder. En skapare av ett verk, som en målning, roman, film, eller musikalisk komposition, har automatiskt minst 50 års ekonomisk och moralisk ensamrätt att bestämma över hur verket kopieras och sprids, förutsatt att det är tillräckligt originellt.
+
+Normal upphovsrätt gäller även vid avsaknad av upphovsrättsanspråk, t.ex. om man offentliggör sitt verk på nätet utan att någonsin skriva att man förbjuder kopiering eller spridning. Det är trots detta en god idé att vara uttrycklig för att slippa missförstånd, om så bara för att många är okunniga om upphovsrätt.
+
+Varje enskild person eller organisation som vill använda ditt verk lagligt måste förhandla med dig om tillåtelse, oftast genom ett skriftligt avtal. Observera att en upphovsperson med fulla rättigheter när som helst kan erbjuda sitt förbehållna verk under friare villkor eller licenser, även retroaktivt (d.v.s. tidigare skapelser och modifierade verk). Dock bör en sådan befrielse räknas som slutgiltig och omöjlig att ångra: en upphovsperson kan därefter släppa nya verk eller modiferade verk med annan licens, men bör utgå från att gamla verk alltid täcks av sina friaste villkor.</value>
+  </data>
+  <data name="full_copyright_notice" xml:space="preserve">
+    <value>Copyright (c) [year] [your name]. Kopiering förbjuden.</value>
+  </data>
+  <data name="full_copyright_title" xml:space="preserve">
+    <value>Ingen licens</value>
+  </data>
+  <data name="noncommercial_no" xml:space="preserve">
+    <value>Nej, jag vill att mitt verk ska kunna spridas och komma till nytta, även om det innebär risken att någon som jag avskyr kan använda det för att tjäna pengar.</value>
+  </data>
+  <data name="noncommercial_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr använder eller sprider ditt verk kommersiellt. Vill du att detta ska vara olagligt?</value>
+  </data>
+  <data name="noncommercial_yes" xml:space="preserve">
+    <value>Ja, för att få använda mitt verk vill jag att de ska förhindras från att använda det i vinstdrivande syften.</value>
+  </data>
+  <data name="notice_label" xml:space="preserve">
+    <value>Exempel på text som kan sättas i anslutning till verket (t.ex. i en bok):</value>
+  </data>
+  <data name="no_derivatives_no" xml:space="preserve">
+    <value>Nej, jag vill att mitt verk ska kunna spridas och komma till nytta, även om det innebär risken att någon som jag avskyr gör ändringar som jag avskyr.</value>
+  </data>
+  <data name="no_derivatives_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr använder ditt verk i något sammanhang. De har gjort sina egna ändringar av ditt verk, t.ex. klippt bort delar, översatt språk, ändrat färg, ökat takt, använder det som del i större verk, etc. Du avskyr ändringarna, möjligtvis för att du anser att det felrepresenterar ditt verk, eller att ändringarna strider mot din estetiska känsla. Vill du att detta ska vara olagligt?</value>
+  </data>
+  <data name="no_derivatives_yes" xml:space="preserve">
+    <value>Ja, för att få använda mitt verk vill jag att de ska förhindras från att göra ändringar. Mitt verk ska hållas orört.</value>
+  </data>
+  <data name="share_alike_no" xml:space="preserve">
+    <value>Nej, jag vill att mitt verk ska kunna spridas och komma till nytta, även om det innebär risken att det blir en del av ett verk som blir ”låst” bakom någon annans upphovsrätt.</value>
+  </data>
+  <data name="share_alike_question" xml:space="preserve">
+    <value>Antag att någon som du avskyr använder ditt verk som en del av sitt eget verk, eller möjligtvis använder ditt verk direkt men med ändringar. De framhåller sin fulla upphovsrätt till sitt nya verk, och hotar att stämma alla som använder det utan lov. Vill du att deras användning av ditt verk ska vara olaglig?</value>
+  </data>
+  <data name="share_alike_yes" xml:space="preserve">
+    <value>Ja, för att få använda mitt verk vill jag att de ska tvingas släppa sitt eget verk under samma villkor.</value>
+  </data>
+</root>

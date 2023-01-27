@@ -1,0 +1,15 @@
+﻿<Application x:Class="LicenseGuide.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LicenseGuide"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="Icon" UriSource="Resources/App-icon.ico" />
+            <SolidColorBrush x:Key="BackgroundColor" Color="White"/>
+            <SolidColorBrush x:Key="ForegroundColor" Color="Black"/>
+            <SolidColorBrush x:Key="RedColor" Color="#f4cccc"/>
+            <SolidColorBrush x:Key="GreenColor" Color="#d9ead3"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

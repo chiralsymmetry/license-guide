@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="code_custom_license_answer" xml:space="preserve">
+    <value>No, that's usually a bad idea. If your goal is to place specific restrictions on what others can do with your code, you should be aware that it is difficult to be unambiguous; if you write something wrong, you may inadvertently introduce a loophole that allows code-receiving developers to do something you explicitly meant to forbid (or to refrain from doing something you explicitly meant to force them to do). And if your goal is to make things easier for other developers who want use your code, a custom license might make the code less secure for them, since your license is untested and uncertain.
+
+Software licenses are written with a lot of effort by people with legal expertise for a reason.</value>
+  </data>
+  <data name="code_custom_license_question" xml:space="preserve">
+    <value>No license does exactly what I want. Can't I just write my own license?</value>
+  </data>
+  <data name="code_derivative_works_limit_answer" xml:space="preserve">
+    <value>This is a contentious issue that arises particularly in the context of GPL-style licenses that require the derivative work to be licensed under the same license as the original work.
+
+Pretty much everyone agrees that if you take someone else's source code and make a few small changes, you are creating a derivative work, and that if in a project you write almost all of the source code yourself but copy and paste someone else's function (e.g., for some special mathematical calculation), you are also creating a derivative work. Opinions begin to diverge on the question of creating source code that merely assumes the presence of someone else's source code without actually including it — essentially a question of whether or not derivative works are created when using libraries.
+
+The Free Software Foundation (FSF), creators of the GPL, are very strict: they believe that if your source code cannot work without a particular GPL library, you must license your own source code as GPL (if you intend to distribute it), even if your source code merely contains references to the GPL code. This could be compared to writing a sequel to someone else's novel: you are creating a derivative work that cannot stand on its own. However, their analysis is eased somewhat if an unmodified client program works just as well with alternative libraries that are not GPL-licensed.
+
+As for compiled source code, most people agree that if the binaries of the client program contain the binary form of the library, and the client program actually uses the library's functionality, then it's a derivative work. If the client program and the library are separate binaries, but the client program loads the library into its own address space and uses its functionality directly, then the client program is also often considered to be a derivative work. With both separate binaries and separate address spaces, where the client program must communicate with the library through its public interface, opinions again begin to differ; as for the FSF, they consider this situation to create a clearly derivative work, and therefore offer the LGPL license to library developers who wish to allow this situation. The more independent the communication between the client program and the GPL code (as a standalone program), the less likely it is that even the FSF would consider the client program a derivative work.
+
+Many of these lines and arguments are not legally tested, but a good rule of thumb is to follow the FSF's approach. If you don't want to license your code under the GPL, you need to find an alternative to using someone else's GPL-licensed code.</value>
+  </data>
+  <data name="code_derivative_works_limit_question" xml:space="preserve">
+    <value>Where is the line drawn for derivative works within source code/software? Will my source code have to be licensed as GPL?</value>
+  </data>
+  <data name="code_gpl_mixing_answer" xml:space="preserve">
+    <value>Combining source code means creating a derivative work. To create or distribute a derivative work, you must have permission from the creators. If the permission comes conditionally through a license, you must comply with all the terms of the license in order to create or distribute the combination.
+
+The GPL allows free modification for personal use, i.e. you may modify code and use it privately; the code modifications create a derivative work consisting of GPL-licensed code and “proprietary” code under public copyright. Similarly, you may privately and legally combine someone else's GPL-licensed source code with someone else's GPL-incompatibly licensed source code.
+
+However, in order to be granted permission to distribute the combined work, the GPL requires that the derivative work be covered by the same license (i.e., the GPL), which in practice means that the derivative work must be covered by the GPL in combination with all other licenses covering the original component works: you generally do not have the right to remove the license on someone else's work, so they all apply at the same time, albeit possibly on different parts. If any other component license imposes any restriction on what is guaranteed by the GPL, the use or distribution is no longer granted by the GPL, making the work both created and distributed in violation of copyright.
+
+It is therefore important to use GPL-compatible licenses when creating source code that uses GPL-licensed source code.</value>
+  </data>
+  <data name="code_gpl_mixing_question" xml:space="preserve">
+    <value>What happens if I combine GPL code with code under a different license?</value>
+  </data>
+  <data name="code_gpl_output_answer" xml:space="preserve">
+    <value>No, copyright generally does not apply to output, just as Microsoft does not own the text document you create in Microsoft Word. An exception, of course, is when the output must be considered a derivative work, such as a GPL-licensed program that prints its own source code. A recording of a play session of a computer game with GPL-licensed graphical resources would also reasonably be a GPL-licensed derivative work.
+
+The guiding principle is that the output is protected by the same copyright as the input. If the input is your imagination, you fully own the output, but if, for example, you edit someone else's photograph in a GPL-licensed photo editing software, you create a derivative work that is protected by both your copyright and the original photographer's copyright, but not by the GPL.</value>
+  </data>
+  <data name="code_gpl_output_question" xml:space="preserve">
+    <value>Does the GPL license extend to the output of a program?</value>
+  </data>
+  <data name="code_license_compatibility_answer" xml:space="preserve">
+    <value>A license contains conditions that must be met if use is to be granted. Two licenses are incompatible if their terms cannot be complied with at the same time, e.g. if one license prohibits commercial use while the other license prohibits non-commercial use: there is no conceivable situation in which software under such a license combination can be used by a licensee.
+
+Another form of incompatibility concerns the fact that licenses may also provide legal guarantees: one license may provide guarantees that are prohibited by another license, e.g. if one license explicitly allows (but does not require) commercial use while the other license explicitly prohibits commercial use; note that the terms of both licenses can be satisfied by non-commercial use.
+
+The Free Software Foundation, creator of the GPL, considers a license to be incompatible with the GPL if either case applies, i.e. if the terms are mutually incompatible or if the other license imposes conditions that contradict guarantees provided by the GPL. However, the terms of the GPL also include that a licensee may not impose restrictions contrary to the guarantees of the GPL, which in principle converts the latter form of incompatibility into the former: use is no longer granted to anyone who attempts to circumvent the guarantees of the GPL. Therefore, it is copyright infringement to distribute GPL-licensed source code combined with source code under a GPL-incompatible license. Note that it is still permissible to create such a combination for private use.
+
+Note also that the original author of any particular source code has the legal freedom to license his work in such a way that makes the combined terms impossible for a licensee to comply with.</value>
+  </data>
+  <data name="code_license_compatibility_question" xml:space="preserve">
+    <value>What is license compatibility? What is GPL compatibility?</value>
+  </data>
+  <data name="code_multiple_licenses_answer" xml:space="preserve">
+    <value>Creators with full rights to a work can offer their work to other people not only under a single license to use the work, but also a choice: “You may use my work under license A, or B, or C”. This means that it is up to the user to choose which terms are most appropriate.
+
+The creators can also use the word “and” instead of “or”, as in “you may use my source code under license A, and B, and C”. This means that all conditions of all licenses together must be met for the use to be legal. Of course, this can quickly get tricky, and it is possible that the conditions cannot all be met at the same time — see the question about license compatibility. Conflicting conditions are not a problem for the original author, but they make it impossible for anyone else to use the source code legally.</value>
+  </data>
+  <data name="code_multiple_licenses_question" xml:space="preserve">
+    <value>How does offering your source code under multiple licenses work?</value>
+  </data>
+  <data name="code_noncode_mix_answer" xml:space="preserve">
+    <value>There is no major difference from mixing source code under different licenses: licensees must comply with all terms at the same time. Unlicensed source code may be mixed with material that does not explicitly prohibit the use of closed code, such as any Creative Commons license. The same is true for source code under a permissive license, such as “BSD+Patent”.
+
+However, complications may arise when any part is under a “copyleft” license, such as the GPL: if a GPL-licensed work is used together with a GPL-incompatible work to create a derivative work, the derivative work cannot be legally distributed under the licenses alone (i.e., without the express permission of the authors of the GPL-licensed work).
+
+This means that if you create a computer game — creating the source code and other resources from scratch — and license the source code as GPL and the rest as CC BY-NC-ND 4.0 (prohibiting derivative works and commercial use), no licensee will be able to modify and distribute the source code as long as it relies on GPL-incompatible resources. The licensee would have to replace the resources, or modify the source code so that the game somehow works without them.
+
+The reverse is also true: if the source code is GPL-incompatible and some (or all) of the resources are GPL-licensed, a licensee who wants to create and distribute a derivative work would have to either replace all the GPL-licensed resources, or replace all the GPL-incompatible resources, including the source code.
+
+Therefore, when creating or using GPL-licensed source code or resources, you should be aware of their GPL-compatibility.</value>
+  </data>
+  <data name="code_noncode_mix_question" xml:space="preserve">
+    <value>How does licensing work when source code is mixed with other types of material, such as graphical resources in a computer game?</value>
+  </data>
+  <data name="code_spdx_answer" xml:space="preserve">
+    <value>The Software Package Data Exchange, or SPDX, is a standard made by the Linux Foundation for providing information on software, such as applicable licenses. It allows for tools to find legal problems when combining code. Even if you aren't going to use such tools, it serves as an extra point of clarity for others.
+
+The format allows for situations with multiple licenses in single files:
+// SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
+
+The format also allows for when the developer wants to allow choice:
+// SPDX-License-Identifier: Apache-2.0 OR BSD-2-Clause-Patent</value>
+  </data>
+  <data name="code_spdx_question" xml:space="preserve">
+    <value>What is SPDX-License-Identifier?</value>
+  </data>
+  <data name="code_use_gpl_without_gpl_answer" xml:space="preserve">
+    <value>There are ways to legally circumvent the GPL, and copyright in general. One way is called “clean room design”, where you hire developers who have no knowledge of the original implementation, and give them only specifications of what you want them to build. In other words, the only thing the developers are allowed to know is the public API of the original. (If you didn't have to study the original to get the specs, you might be able to legally create the work yourself.)
+
+A more GPL-specific solution if you want to use GPL libraries is to make your client program modular. You can then create a fully optional and GPL-licensed module that uses the GPL library. However, the client program must be truly independent of the GPL module. If this is not possible, you can create a rudimentary replacement for the GPL library: the client program works without the GPL library, but users who want enhanced functionality can install GPL library themselves.
+
+Depending on how the circumvention is done, it may be perceived as dishonest. No one will reasonably complain if someone independently creates software that competes with GPL software, but the more it is perceived that they are exploiting loopholes to violate the spirit of the license, the more disreputable those developers will become, and the grayer the area, the greater the risk of copyright infringement lawsuits.</value>
+  </data>
+  <data name="code_use_gpl_without_gpl_question" xml:space="preserve">
+    <value>Can you use GPL code without having to license your own code as GPL? Can you circumvent someone else's license?</value>
+  </data>
+  <data name="code_why_license_answer" xml:space="preserve">
+    <value>In addition to the fact that software may be subject to special legal treatment in many countries, e.g. in restrictions on private copying that would be legal for other kinds of works, there may also be other complications, such as when defining “derivative work” in relation to source code: compiling source code into binary form could be considered legally the same as translating a novel from English into German, which might require explicit permission from the author. Even the simple execution of compiled code could be considered copying (from disk to physical memory), with legal implications.
+
+Given this potential complexity, a software license would preferably make it clear that the source code may be compiled and executed (if that is the intent).</value>
+  </data>
+  <data name="code_why_license_question" xml:space="preserve">
+    <value>Why are licenses needed specifically for software/source code (rather than using those for cultural works)?</value>
+  </data>
+  <data name="font_fonts_typefaces_answer" xml:space="preserve">
+    <value>A “typeface” is an author's design of letters, while a “font” is a specific variation of a typeface, such as bold in size 10 point. The word “font” also refers to a specific digitization of a font, i.e. a font file for use on a computer.
+
+In some countries, both typefaces and font files are protected by copyright, but many countries have decided that typefaces should not be protected by copyright (while still protecting font files). In such a country, it would be a crime to distribute someone else's font file without permission, but it might be legal to replicate the typeface in a font file you create yourself.</value>
+  </data>
+  <data name="font_fonts_typefaces_question" xml:space="preserve">
+    <value>What is the difference between typefaces and fonts?</value>
+  </data>
+  <data name="font_why_font_license_answer" xml:space="preserve">
+    <value>Fonts can legally function as something between software and cultural works, as fonts are intended to be used as building blocks in other works (e.g. text on a billboard), while their design may require artistic ability. It is possible that in some countries the normal use of a typeface or font would result in something that could be considered a derivative work. This is rarely the intention of the people who create font files. For clarity and legal certainty, it may therefore be best to use a license specific to font files.</value>
+  </data>
+  <data name="font_why_font_license_question" xml:space="preserve">
+    <value>Why are fonts a separate category?</value>
+  </data>
+  <data name="general_anonymous_answer" xml:space="preserve">
+    <value>No, copyright applies even if you publish your work under a pseudonym (an assumed name) or anonymously (no name).
+
+However, there are times when anonymous or pseudonymous publication may present a legal obstacle. For example, if you want to defend your work against copyright infringement, you must be able to prove that you are the creator of the work, and in the absence of public knowledge about whether the creator is alive or not, the copyright of the work will expire based on the year the work was published. If that's acceptable, there's no problem with not giving your real name or otherwise making yourself identifiable.</value>
+  </data>
+  <data name="general_anonymous_question" xml:space="preserve">
+    <value>Do I have to use my real name in copyright notices?</value>
+  </data>
+  <data name="general_copyright_length_answer" xml:space="preserve">
+    <value>Most countries have agreed that a work should have a minimum protection period of at least 50 years after all the creators of the work have died, which is usually referred to as “life + 50 years”. Many countries have “life + 70 years”, and some countries have “life + 120 years”. However, if the public cannot determine who the creators of the work are (i.e. if they are alive or not), the minimum term of protection is 50 years from the date the work was made available to the public.
+
+Some types of works may have a shorter term of protection. “Audiovisual” works, i.e. films, have a minimum term of protection of 50 years from the date of making available, and photographs and practical art (furniture, jewelry, etc.) have a minimum term of protection of 25 years from the date of making available. However, these are only minimum protections, and they may have the same or even longer term of protection as other works.</value>
+  </data>
+  <data name="general_copyright_length_question" xml:space="preserve">
+    <value>How long does copyright last?</value>
+  </data>
+  <data name="general_copyright_symbol_answer" xml:space="preserve">
+    <value>No, copyright applies regardless of whether you use the copyright symbol or not, but it is customary to do so anyway, and to write something like “(c)” in cases where you cannot write “©”. It is always best to be clear.</value>
+  </data>
+  <data name="general_copyright_symbol_question" xml:space="preserve">
+    <value>Do I have to use the copyright symbol, ©?</value>
+  </data>
+  <data name="general_copyright_years_answer" xml:space="preserve">
+    <value>Copyright in a work applies whether or not you include a copyright notice, and regardless of the particular form of the notice. If you do include a notice, it's a good idea to include the year. The years are mainly there to help other people tell whether the copyright on the work has expired — and, if it has not, to make it even clearer that the creators are asserting their rights. So if you want to be clear, you can write the year when you first made the work available to the public. For example, if you wrote a novel between 2010 and 2013, put it away for 10 years, and published it in 2023, you would write “Copyright © 2023”.
+
+For “living works” — that is, works that change even after they were made available for the first time — you can use multiple years. If you published a web page in 2015 and then did not update it until 2020, you could write “Copyright © 2015, 2020”. On the other hand, if you have updated it each year in between, you could say “Copyright © 2015-2020”. And if you have updated the web page such that no material written before 2018 remains, you can then start writing “Copyright © 2018-2020”. Finally, you can combine the forms: a web page with material written in 2015 and 2018-2020 can have the text “Copyright © 2015, 2018-2020”.</value>
+  </data>
+  <data name="general_copyright_years_question" xml:space="preserve">
+    <value>How do years work in copyright notices?</value>
+  </data>
+  <data name="general_derivative_works_answer" xml:space="preserve">
+    <value>A derivative work is a work created based on someone else's work, in the broadest sense of the term. Performing someone else's song creates a derivative work; creating subtitles to someone else's film creates a derivative work; creating a collage of pictures that includes a detail from someone else's picture creates a derivative work. In many countries, it is considered a violation of copyright law to create a derivative work without the permission of the original creator, even for private use (e.g., translating a novel even though no one else will ever read the translation).
+
+The derivative work itself may cross the threshold of originality and be protected by copyright, whether or not the original work itself is protected by copyright (e.g., a photograph of the Mona Lisa painting). If the original work is copyrighted, the derivative work may have two or more authors, so distribution and use require permission from all of them.
+
+However, there are situations in which a derivative work may be considered to have transformed the original work in such a way that its use no longer requires the permission of the original creator, such as in the case of satire or scholarly analysis of the original, but as a general rule the use of the original should be limited in scope.</value>
+  </data>
+  <data name="general_derivative_works_question" xml:space="preserve">
+    <value>What is a derivative work? What applies to derivative works?</value>
+  </data>
+  <data name="general_international_answer" xml:space="preserve">
+    <value>It depends on which countries are involved, and what agreements they have with each other, but a rule of thumb might be that if a work is published in another country, you can treat it as if it were published in your own country. What constitutes a copyright infringement therefore depends on where the infringement occurs (a question that can be complicated in the case of infringements that take place over the Internet, for example).</value>
+  </data>
+  <data name="general_international_question" xml:space="preserve">
+    <value>How does copyright — and copyright infringement — work internationally?</value>
+  </data>
+  <data name="general_moral_rights_answer" xml:space="preserve">
+    <value>In general, copyright can be said to consist of economic rights and moral rights. Economic rights are the right to control the distribution and use of your work. The economic right to a work can usually be sold so that the author no longer has the right to control its distribution and use.
+
+The moral right is primarily the right to be recognized as the author of the work, but also the right to object to (perceived) defamatory treatment of the work. In many countries, moral rights cannot be sold, transferred or waived; they do not expire until the copyright of the work expires.</value>
+  </data>
+  <data name="general_moral_rights_question" xml:space="preserve">
+    <value>What are moral rights?</value>
+  </data>
+  <data name="general_publicity_rights_answer" xml:space="preserve">
+    <value>It generally refers to the right to control the distribution and use of images, videos, and sound recordings in which you are personally identifiable, especially for commercial use. It is not a right that exists in all countries, but where it does, it is something to be considered separately from copyright.</value>
+  </data>
+  <data name="general_publicity_rights_question" xml:space="preserve">
+    <value>What is the right of publicity / right of personality / right of privacy?</value>
+  </data>
+  <data name="general_what_is_originality_answer" xml:space="preserve">
+    <value>When a person creates a work, it may cross the threshold of originality, which means that it is legally protected under copyright law. This protection applies as soon as the work crosses the threshold, “as soon as the pen leaves the paper”, without anyone else having to see the work or even be notified that it has been created. What is required for the work to cross the threshold of originality varies depending on where the work is created: in some countries the threshold is very low, while others may require that the work could not reasonably be created by two people independently of each other. In most cases, the work does not have to be “original” in the sense of “innovative” or “non-traditional”; instead, it is sufficient (and required) that the work reflects to some degree the personality of its creator and results from some form of effort.
+
+In some countries, it is possible to “register” a work; usually this just means that you have some additional legal options, such as being able to claim higher damages if you sue for infringement, but copyright applies even without registration.</value>
+  </data>
+  <data name="general_what_is_originality_question" xml:space="preserve">
+    <value>What is the “threshold of originality”? When is something protected by copyright?</value>
+  </data>
+  <data name="group_code" xml:space="preserve">
+    <value>Source Code</value>
+  </data>
+  <data name="group_font" xml:space="preserve">
+    <value>Fonts</value>
+  </data>
+  <data name="group_general" xml:space="preserve">
+    <value>General</value>
+  </data>
+</root>

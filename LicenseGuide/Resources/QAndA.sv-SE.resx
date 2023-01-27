@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="code_custom_license_answer" xml:space="preserve">
+    <value>Nej, i regel är det en dålig idé. Om ditt mål är att sätta specifika begränsningar på vad andra ska få göra med din kod så bör du vara medveten om att det är svårt att uttrycka sig på ett vattentätt sätt; om du skriver något felaktigt så kanske du råkar införa ett kryphål, så att kodlånande utvecklare kan göra något som du uttryckligen ville förbjuda (eller låta bli att göra något som du uttryckligen ville tvinga dem att göra). Och om ditt mål är att förenkla för andra potentiella kodlånande utvecklare så kan en specialskriven licens tvärtom göra koden osäkrare för dem, eftersom licensen är obeprövad.
+
+Det är inte utan anledning som mjukvarulicenser skrivs med mycket möda av folk med juridisk expertis.</value>
+  </data>
+  <data name="code_custom_license_question" xml:space="preserve">
+    <value>Ingen licens gör exakt vad jag vill. Kan jag inte bara skriva en egen licens?</value>
+  </data>
+  <data name="code_derivative_works_limit_answer" xml:space="preserve">
+    <value>Detta är en omtvistad fråga som särskilt kommer upp i anslutning till licenser i stil med GPL som kräver att det bearbetade verket måste ha samma licens som originalverket.
+
+I stort sett alla är överens om att om du tar någon annans källkod och gör några små ändringar så skapar du ett bearbetat verk, och att om du i ett projekt skriver nästan all källkod själv men kopierar in någon annans funktion (t.ex. för någon specifik matematisk beräkning), så skapar du också ett bearbetat verk. Uppfattningarna börjar skilja sig när det gäller frågan om att skapa källkod som endast förutsätter närvaron av någon annans källkod, utan att faktiskt inkludera den – i huvudsak en fråga om huruvida användning av bibliotek skapar bearbetningar.
+
+Free Software Foundation (FSF), skaparna av GPL-licensen, är väldigt strikta: de anser att om din källkod inte kan fungera utan något visst GPL-bibliotek så måste du licensera din egen källkod som GPL (om du tänkt sprida den), även om din källkod inte mer än inkluderar referenser till GPL-koden. Detta skulle kunna jämföras med att skriva en uppföljare till någon annans roman: man skapar ett bearbetat verk som inte kan stå på egna ben. Dock lättar deras analys något om ett omodifierat klientprogram fungerar även med alternativa bibliotek som inte är GPL-licenserade.
+
+Vad gäller kompilerad källkod brukar de flesta vara överens att om klientprogrammets binärer innehåller bibliotekets binärform, och klientprogrammet faktiskt använder biblioteksfunktionaliteten, så är det ett bearbetat verk. Om klientprogrammet och biblioteket är separata binärer, men klientprogrammet laddar in biblioteket i sin egen adressrymd och använder dess funktionalitet direkt, så anses det också ofta att klientprogrammet är ett bearbetat verk. Med både separata binärer och separata adressrymder, där klientprogrammet måste kommunicera med biblioteket genom dess offentliga gränssnitt, börjar åsikterna gå isär; FSF själva anser att det är tydlig bearbetning och erbjuder därför LGPL-licensen åt biblioteksutvecklare som vill tillåta denna situation. Ju mer självständig kommunikation mellan klientprogrammet och GPL-koden (som självstående program), desto mindre sannolikt är det att att ens FSF skulle anse klientprogrammet som ett bearbetat verk.
+
+Många av dessa gränsdragningar och argument är inte rättsligt beprövade, men en god tumregel är att gå på FSF:s linje. Vill du inte licensera din kod som GPL får du hitta ett alternativ till att använda någon annans GPL-licenserade kod.</value>
+  </data>
+  <data name="code_derivative_works_limit_question" xml:space="preserve">
+    <value>Var går gränsen för bearbetningar inom källkod/mjukvara? Måste min källkod licenseras som GPL?</value>
+  </data>
+  <data name="code_gpl_mixing_answer" xml:space="preserve">
+    <value>Att kombinera källkod innebär att skapa ett bearbetat verk. För att få skapa eller sprida ett bearbetat verk måste man ha upphovspersonernas tillåtelse. Om tillåtelsen kommer villkorligt genom en licens måste man uppfylla alla ingående licensvillkor för att få skapa eller sprida kombinationen.
+
+GPL tillåter fri bearbetning för eget bruk, d.v.s. man får modifiera kod och använda privat; kodändringarna skapar ett bearbetat verk som består av GPL-licenserad kod och ”proprietär” kod under allmän upphovsrätt. På samma sätt kan man privat och lagligt kombinera någon annans GPL-licenserade källkod med någon annans GPL-inkompatibelt licenserade källkod.
+
+För tillåtelse att sprida det kombinerade verket så kräver dock GPL att bearbetningen täcks av samma licens (GPL), vilket i praktiken innebär att bearbetningen måste täckas av GPL i kombination med alla andra ingående licenser – man har i regel inte rätt att ta bort licensen för någon annans verk, så alla gäller samtidigt. Om någon annan ingående licens påför någon som helst begränsning på vad som garanteras av GPL, så beviljas inte längre användningen eller spridningen, vilket gör att det bearbetade verket både skapats och sprids i strid med upphovsrätten.
+
+Därför är det viktigt att använda GPL-kompatibla licenser när man skapar källkod som använder GPL-licenserad källkod.</value>
+  </data>
+  <data name="code_gpl_mixing_question" xml:space="preserve">
+    <value>Vad händer om jag blandar GPL-kod med kod under annan licens?</value>
+  </data>
+  <data name="code_gpl_output_answer" xml:space="preserve">
+    <value>Nej, upphovsrätt gäller i regel inte för utdata, på samma sätt som Microsoft inte äger textdokumentet du skapar i Microsoft Word. Ett undantag är förstås om utdatan måste anses som ett bearbetat verk, t.ex. ett GPL-licenserat program som skriver ut sin egen källkod. En inspelning av en spelsession av ett dataspel med GPL-licenserade grafiska resurser blir också rimligtvis en GPL-licenserad bearbetning.
+
+Den vägledande regeln är att utdata skyddas av samma upphovsrätt som indatan. Om indatan är din fantasi så äger du till fullo utdatan, men om du t.ex. redigerar någon annans fotografi i ett GPL-licenserat bildbehandlingsprogram så skapar du ett bearbetat verk som täcks av både din upphovsrätt och originalfotografens upphovsrätt, men inte av GPL.</value>
+  </data>
+  <data name="code_gpl_output_question" xml:space="preserve">
+    <value>Sprids GPL-licensen även till utdatan ur ett program?</value>
+  </data>
+  <data name="code_license_compatibility_answer" xml:space="preserve">
+    <value>En licens innehåller villkor som måste efterlevas om användning ska beviljas. Två licenser är inkompatibla om deras villkor inte kan efterlevas samtidigt, t.ex. om en licens förbjuder kommersiell användning medan den andra licensen förbjuder icke-kommersiell användning: det finns ingen tänkbar situation där mjukvara under en sådan licenskombination kan användas av en licenstagare.
+
+En annan form av inkompatibilitet berör att licenser också kan erbjuda juridiska garantier: en licens kan ge garantier som förbjuds av en annan licens, t.ex. om en licens uttryckligen tillåter (men inte kräver) kommersiell användning medan den andra licensen uttryckligen förbjuder kommersiell användning; observera att båda licensernas villkor kan efterlevas förutsatt icke-kommersiell användning.
+
+Free Software Foundation, skaparna av GPL-licensen, räknar en licens som inkompatibel med GPL om endera fallet gäller, d.v.s. om villkoren är ömsesidigt inkompatibla eller om den andra licensen sätter villkor som strider emot garantier som ges av GPL. Till villkoren i GPL hör dock också att en licenstagare inte får påföra restriktioner som strider mot garantierna i GPL, vilket i princip omvandlar den senare formen av inkompatibilitet till den första formen: användning beviljas inte längre för den som försöker ta ifrån garantierna i GPL. Därför strider det mot upphovsrätten att sprida GPL-licenserad källkod som kombinerats med källkod under GPL-inkompatibel licens; att skapa en sådan kombination för privat bruk är dock tillåtet.
+
+Den ursprungliga upphovspersonen till någon viss källkod har dock juridisk frihet att licensera sitt verk sådant att de kombinerade villkoren blir omöjliga för en licenstagare att uppfylla.</value>
+  </data>
+  <data name="code_license_compatibility_question" xml:space="preserve">
+    <value>Vad är licenskompatibilitet? Vad är GPL-kompatibilitet?</value>
+  </data>
+  <data name="code_multiple_licenses_answer" xml:space="preserve">
+    <value>En upphovsperson med fulla rättigheter till ett verk kan åt andra personer erbjuda inte bara en licens för att använda verket, utan också ett val: ”du kan få använda min källkod givet licens A, eller B, eller C”. Det betyder att det är upp till användaren att välja vilka villkor som passar bäst.
+
+Upphovspersonen kan också använda ordet ”och” i stället för ”eller”, som i ”du kan få använda min källkod givet licens A, och B, och C”. Det innebär att alla villkor från alla licenser tillsammans måste uppfyllas för att användningen ska vara laglig. Detta kan förstås fort bli snårigt, och det är möjligt att villkoren är omöjliga att uppfylla samtidigt – se frågan om licenskompatibilitet. Motstridiga villkor är inte ett problem för originalets upphovsperson, men det gör det omöjligt för någon annan att lagligt använda källkoden.</value>
+  </data>
+  <data name="code_multiple_licenses_question" xml:space="preserve">
+    <value>Hur fungerar det att erbjuda sin källkod under flera licenser?</value>
+  </data>
+  <data name="code_noncode_mix_answer" xml:space="preserve">
+    <value>Det är ingen större skillnad från situationen där man blandar källkod under en licens med källkod under en annan licens: licenstagare måste efterleva alla villkor samtidigt. Olicenserad källkod får blandas med material som inte uttryckligen förbjuder användning av sluten kod, t.ex. alla Creative Commons-licenser. Samma gäller om källkoden är under en tillåtande licens, som ”BSD+Patent”.
+
+Komplikationer kan däremot uppstå när någon del är under en ”copyleft”-licens som GPL: om ett verk licenserat som GPL används tillsammans med ett verk licenserat under en GPL-inkompatibel licens för att skapa ett bearbetat verk, så kan inte verket lagligt spridas enbart med stöd i licenserna (d.v.s. utan uttrycklig tillåtelse från GPL-verkets upphovspersoner).
+
+Det betyder att om man skapar ett dataspel – skapar källkod och övriga resurser från grunden – och licenserar källkoden som GPL och resten som CC BY-NC-ND 4.0 (förbjuder modifiering och kommersiell användning) så kommer ingen licenstagare att kunna modifiera och sprida källkoden så länge den är beroende av GPL-inkompatibla resurser. Licenstagaren skulle behöva byta ut resurserna, eller ändra så att spelet på något sätt fungerar utan dem.
+
+Även det omvända gäller: om källkoden är GPL-inkompatibel och någon (eller alla) resurser är GPL-licenserad, så skulle en licenstagare som vill skapa och sprida ett bearbetat verk behöva antingen byta ut alla GPL-licenserade resurser eller alla GPL-inkompatibla resurser inklusive källkoden.
+
+Vid skapande eller användning av källkod eller resurser under GPL-licens bör man alltså vara medveten om deras GPL-kompatibilitet.</value>
+  </data>
+  <data name="code_noncode_mix_question" xml:space="preserve">
+    <value>Hur fungerar licenser när källkod blandas med andra sorters material t.ex. grafiska resurser i ett dataspel?</value>
+  </data>
+  <data name="code_spdx_answer" xml:space="preserve">
+    <value>Software Package Data Exchange, or SPDX, är en standard skapad av Linux Foundation för att ge information om mjukvara, t.ex. vilka licenser som gäller. Den möjliggör för verktyg att upptäcka juridiska problem vid kombinering av kod. Även om man inte själv kommer att använda sådana verktyg ger närvaron extra klarhet i vad som gäller.
+
+Formatet kan användas även när en fil täcks av flera licenser samtidigt:
+// SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
+
+Formatet kan också användas när utvecklaren vill erbjuda licensval:
+// SPDX-License-Identifier: Apache-2.0 OR BSD-2-Clause-Patent</value>
+  </data>
+  <data name="code_spdx_question" xml:space="preserve">
+    <value>Vad är SPDX-License-Identifier?</value>
+  </data>
+  <data name="code_use_gpl_without_gpl_answer" xml:space="preserve">
+    <value>Det finns sätt att lagligt kringgå GPL-licensen, och upphovsrätt i allmänhet. Ett sätt kallas för ”renrumsdesign”, där man anlitar utvecklare utan kunskap om originalets implementation och endast ger dem specifikationer om vad man vill att de skapar. Med andra ord, det enda som utvecklarna får känna till är originalets offentliga API. (Om man inte behövt studera originalet för att få fram specifikationerna så är det möjligt att man själv kan skapa verket.)
+
+En mer GPL-specifik lösning då man vill använda GPL-bibliotek är att skapa sitt klientprogram med modularitet. Då kan man skapa en helt valfri och GPL-licenserad modul som använder GPL-biblioteket. Dock måste klientprogrammet verkligen vara helt oberoende av GPL-modulen. Om detta inte är möjligt så kan man skapa en rudimentär ersättare till GPL-biblioteket: klientprogrammet fungerar utan GPL-biblioteket, men användare som vill ha förbättrad funktionalitet kan själva sätta GPL-biblioteket på plats.
+
+Beroende på hur kringgåendet sker kan det uppfattas som oärligt. Ingen kommer rimligtvis att klaga om någon självständigt skapar mjukvara som konkurrerar med GPL-mjukvara, men ju mer det uppfattas som att de utnyttjar kryphål för att motverka licensens anda, desto mer illa ansedda kommer dessa utvecklare att bli, och ju gråare området är desto större blir risken för stämningar för brott mot upphovsrätten.</value>
+  </data>
+  <data name="code_use_gpl_without_gpl_question" xml:space="preserve">
+    <value>Kan man använda GPL-kod utan att behöva licensera sin egen kod som GPL? Kan man kringgå någon annans licens?</value>
+  </data>
+  <data name="code_why_license_answer" xml:space="preserve">
+    <value>Förutom att mjukvara kan ha en särbehandling i lagen i många länder, t.ex. i begränsningar av privatkopiering som är laglig för andra sorters verk, så kan det också uppstå andra komplikationer, som med definitionen av ”bearbetning” vad gäller källkod: kompilering av källkod till binär form skulle kunna ses juridiskt på samma sätt som översättning av en roman från engelska till tyska, vilket skulle kunna kräva uttrycklig tillåtelse från upphovspersonen. Ren körning av kompilerad kod skulle också kunna räknas som kopiering (från lagringsmedium till arbetsminne), med upphovsrättsliga konsekvenser.
+
+Med tanke på denna möjliga snårighet kan det vara en stark fördel med en mjukvarulicens som tydliggör att källkoden får kompileras och köras (om det är något som man vill tillåta).</value>
+  </data>
+  <data name="code_why_license_question" xml:space="preserve">
+    <value>Varför behövs licenser specifikt för mjukvara/källkod (i stället för sådana för kulturella verk)?</value>
+  </data>
+  <data name="font_fonts_typefaces_answer" xml:space="preserve">
+    <value>Ett ”typsnitt” är en upphovspersons utformning av bokstäver, medan en ”stil” / ”font” är en specifik variant av ett typsnitt, t.ex. fetstilt i storlek 10 punkter. Ordet ”font” avser också en specifik digitalisering av ett typsnitt/font, alltså en fontfil som kan användas på en dator.
+
+I en del länder är både typsnitt och fontfiler upphovsrättsskyddade, men många länder har bestämt att typsnitt inte ska skyddas av upphovsrätt. I ett sådant land skulle man begå ett brott om man spred någon annans fontfil utan tillstånd, men det skulle möjligtvis vara lagligt att skapa en egen fontfil med samma utseende.</value>
+  </data>
+  <data name="font_fonts_typefaces_question" xml:space="preserve">
+    <value>Vad är skillnaden mellan typsnitt och fonter?</value>
+  </data>
+  <data name="font_why_font_license_answer" xml:space="preserve">
+    <value>Fonter kan juridiskt fungera som ett mellanting mellan mjukvara och kulturella verk, eftersom fonter är menade att användas som byggstenar i andra verk (t.ex. text på en reklamskylt), samtidigt som deras utformning kan kräva konstnärlig förmåga. Det är möjligt att i vissa länder skulle den normala användningen av ett typsnitt eller en font ge upphov till något som skulle kunna räknas som ett bearbetat verk. Detta är sällan avsikten hos personerna som skapar fontfiler. För tydlighet och juridisk säkerhet kan det därför vara bäst att använda en licens specifik för fontfiler.</value>
+  </data>
+  <data name="font_why_font_license_question" xml:space="preserve">
+    <value>Varför är fontfiler en separat kategori?</value>
+  </data>
+  <data name="general_anonymous_answer" xml:space="preserve">
+    <value>Nej, upphovsrätt gäller även om man publicerar sitt verk under pseudonym (ett antaget namn) eller anonymt (inget namn).
+
+Det finns dock tillfällen då en anonym eller pseudonym publicering kan innebära ett juridiskt hinder. Om man t.ex. vill försvara sitt verk vid upphovsrättsbrott så måste man kunna styrka att man är verkets skapare, och i avsaknad av kunskap om huruvida upphovspersonen lever eller inte så kommer upphovsrätten för verket att upphöra baserat på verkets publicering. Om det är acceptabelt så är det inga problem med att inte ange sitt riktiga namn eller på annat sätt göra sig identifierbar.</value>
+  </data>
+  <data name="general_anonymous_question" xml:space="preserve">
+    <value>Måste jag ange mitt riktiga namn i upphovsrättsnotiser?</value>
+  </data>
+  <data name="general_copyright_length_answer" xml:space="preserve">
+    <value>De flesta länder har kommit överens om att ett verk ska ha ett minimiskydd på minst 50 år från det att verkets alla skapare avlidit, vilket brukar beskrivas som ”livet + 50 år”. I många länder gäller ”livet + 70 år”, och en del länder har ”livet + 120 år”. Om allmänheten inte kan avgöra vem verkets skapare är (d.v.s. avgöra om denne lever) så gäller dock ett minimiskydd på 50 år från det att verket gjorts tillgängligt för allmänheten.
+
+En del typer av verk kan ha kortare skydd. ”Audiovisuella” verk, d.v.s. filmer, har ett minimiskydd på 50 år från tillgängliggörandet, och fotografier och praktisk konst (möbler, smycken etc.) har ett minimiskydd på 25 år från tillgängliggörandet. Detta är dock bara minimiskydd, och de kan ha lika långt skydd som övriga verk.</value>
+  </data>
+  <data name="general_copyright_length_question" xml:space="preserve">
+    <value>Hur länge räcker upphovsrätt?</value>
+  </data>
+  <data name="general_copyright_symbol_answer" xml:space="preserve">
+    <value>Nej, upphovsrätt gäller oavsett huruvida man använder upphovsrättssymbolen eller ej, men det är konvention att göra det ändå, och att skriva t.ex. ”(c)” i de fall där man inte har möjlighet att skriva ”©”. Det är alltid bäst att vara tydlig.</value>
+  </data>
+  <data name="general_copyright_symbol_question" xml:space="preserve">
+    <value>Måste man använda upphovsrättssymbolen ©?</value>
+  </data>
+  <data name="general_copyright_years_answer" xml:space="preserve">
+    <value>Upphovsrätt för ett verk gäller oavsett huruvida man skriver en upphovsrättsnotis eller ej, och oavsett formen för hur man gör det. Om man gör det är det bra att skriva årtal. Årtalen är främst till för att hjälpa andra att beräkna huruvida upphovsrätten har hunnit gå ut för verket – samt att det tydliggör ytterligare att upphovspersonen hävdar sin rätt. Om man vill vara tydlig kan man därför ange årtalet då man för första gången gjorde verket tillgängligt för allmänheten. Om man t.ex. skrev en roman mellan åren 2010-2013, lade undan romanen i 10 år, och publicerade den 2023, så skriver man ”copyright 2023”.
+
+För ”levande verk”, alltså verk som förändras även efter att de tillgängliggjorts för första gången, så kan man skriva flera årtal. Om man publicerat en webbsida år 2015 och därefter inte uppdaterat den förrän år 2020 så kan man skriva ”copyright 2015, 2020”. Om man däremot hållit den uppdaterad varje år så kan man skriva ”copyright 2015-2020”. Och om man uppdaterat webbsidan så att inget material finns kvar som skrevs före år 2018 så kan man därefter börja skriva ”copyright 2018-2020”. Slutligen kan man kombinera skrivsätten: en webbsida med material skrivet under åren 2015 och 2018-2020 kan ha texten ”copyright 2015, 2018-2020”.</value>
+  </data>
+  <data name="general_copyright_years_question" xml:space="preserve">
+    <value>Hur fungerar årtal i upphovsrättsnotiser?</value>
+  </data>
+  <data name="general_derivative_works_answer" xml:space="preserve">
+    <value>Ett bearbetat verk är ett verk som skapats baserat på någon annans verk, i bred bemärkelse. Framförandet av någon annans låt är ett bearbetat verk; undertexterna till någon annans film är ett bearbetat verk; ett bildkollage som innehåller en detalj ur någon annans bild är ett bearbetat verk. I många länder anses det strida mot upphovsrättslagen att skapa ett bearbetat verk utan originalupphovspersonens tillåtelse, även för rent privat bruk (t.ex. att skapa en romanöversättning som ingen annan människa kommer att läsa).
+
+Bearbetningen i sig kan uppnå verkshöjd och skyddas av upphovsrätt, oavsett om originalverket i sig skyddas av upphovsrätt eller ej (t.ex. ett fotografi av målningen Mona Lisa). Om originalet är upphovsrättsskyddat så kan det bearbetade verket ha två eller fler upphovspersoner, så att spridning och användning kräver allas tillåtelse.
+
+Det finns dock situationer där ett bearbetat verk anses ha ändrat originalverket på ett sådant sätt att tillåtelse från originalets upphovsperson inte behövs, t.ex. vid satir eller akademisk analys av originalet, men i regel bör användningen av originalet begränsas i omfattning.</value>
+  </data>
+  <data name="general_derivative_works_question" xml:space="preserve">
+    <value>Vad är ett bearbetat verk / andrahandsverk (”derivatverk”)? Vad gäller för bearbetade verk?</value>
+  </data>
+  <data name="general_international_answer" xml:space="preserve">
+    <value>Det beror på vilka länder det gäller, och vilka avtal de har med varandra, men en tumregel kan vara att om ett verk publicerats i ett annat land så kan man behandla det som om det publicerats i ens eget land. Vad som utgör ett upphovsrättsbrott beror alltså på var brottet begås (en fråga som kan försvåras vid brott som sker t.ex. över Internet).</value>
+  </data>
+  <data name="general_international_question" xml:space="preserve">
+    <value>Hur fungerar upphovsrätt och upphovsrättsbrott internationellt?</value>
+  </data>
+  <data name="general_moral_rights_answer" xml:space="preserve">
+    <value>Allmän upphovsrätt kan sägas bestå av förfoganderätt och ideell rätt. Förfoganderätt innebär rätten att kontrollera spridning och användning av sitt verk. Förfoganderätten för ett verk kan i regel säljas, så att upphovspersonen inte längre har någon rätt att kontrollera spridning och användning.
+
+Ideell rätt är främst rätten att kräva erkännande som verkets upphovsperson, men också rätten att invända mot (upplevd) ärekränkande behandling av verket. I många länder kan ideell rätt varken säljas, överlåtas, eller avsägas; den upphör i så fall endast när upphovsrätten för verket gör det.</value>
+  </data>
+  <data name="general_moral_rights_question" xml:space="preserve">
+    <value>Vad är ideell (moralisk) rätt?</value>
+  </data>
+  <data name="general_publicity_rights_answer" xml:space="preserve">
+    <value>I allmänhet gäller det rätten att kontrollera spridning och användning av bilder, filmer, och ljudupptagningar på vilka man är personligt identifierbar, särskilt kommersiell användning. Det är inte en rätt som existerar i alla länder, men där den gör det är det något att ta hänsyn till separat från upphovsrätt.</value>
+  </data>
+  <data name="general_publicity_rights_question" xml:space="preserve">
+    <value>Vad är publicitetsrätt / personlighetsrätt / integritetsrätt?</value>
+  </data>
+  <data name="general_what_is_originality_answer" xml:space="preserve">
+    <value>När en person skapar ett verk så kan det uppnå verkshöjd, vilket innebär att det är juridiskt skyddat under upphovsrätten. Detta skydd gäller så fort verket uppnår verkshöjd, ”så fort pennan lämnar pappret”, utan att någon annan behöver se verket eller ens meddelas om att det skapats. Vad som krävs för att verket ska uppnå verkshöjd varierar beroende på var verket skapas. I vissa länder är gränsen väldigt låg, medan andra länder kan kräva att verket inte rimligtvis ska kunna skapas av två personer oberoende av varandra. Oftast gäller att verket inte måste vara ”originellt” i bemärkelsen nydanande eller otraditionellt, utan att det räcker (och kräver) att verket i någon mån speglar sin upphovspersons personlighet och uppstår efter någon form av arbetsinsats.
+
+I vissa länder kan man ”registrera” ett verk; i regel innebär det bara att man har vissa extra juridiska möjligheter, t.ex. att man kan kräva större skadestånd, men upphovsrätten gäller även utan registrering.</value>
+  </data>
+  <data name="general_what_is_originality_question" xml:space="preserve">
+    <value>Vad är ”verkshöjd”? När skyddas något av upphovsrätt?</value>
+  </data>
+  <data name="group_code" xml:space="preserve">
+    <value>Källkod</value>
+  </data>
+  <data name="group_font" xml:space="preserve">
+    <value>Fontfiler</value>
+  </data>
+  <data name="group_general" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+</root>
