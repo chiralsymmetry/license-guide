@@ -1,7 +1,10 @@
 # License Guide
 License Guide is an opiniated helper for picking an appropriate license for
-source code, font files, or other types of materials. The selection of
-licenses is small but safe.
+source code, font files, or other types of materials such as paintings,
+novels, films, music, video game graphics, scientific articles, software
+documentation, photographs, architecture, choreography, technical drawings,
+sculptures, podcast recordings, fashion design, or anything else protectable
+by copyright. The selection of licenses is small but safe.
 
 ![](../../blob/assets/screenshot.png)
 
