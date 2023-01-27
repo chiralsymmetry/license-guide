@@ -1,6 +1,6 @@
 # License Guide
-License Guide is an opiniated helper for picking an appropriate license for
-source code, font files, or other types of materials such as paintings,
+License Guide is an opinionated helper for picking an appropriate license
+for source code, font files, or other types of materials such as paintings,
 novels, films, music, video game graphics, scientific articles, software
 documentation, photographs, architecture, choreography, technical drawings,
 sculptures, podcast recordings, fashion design, or anything else protectable
@@ -8,10 +8,10 @@ by copyright. The selection of licenses is small but safe.
 
 ![](../../blob/assets/screenshot.png)
 
-Where other guides approach the issue with positivity, such as “use this
-license if you want something simple”, we ask you questions meant to
-illustrate worst-case scenarios, in order to minimize the risk of you having to
-regret your choice. We may even recommend not using a license at all — after
+Where other guides approach the issue with positivity, giving recommendations
+such as “use this license if you want something simple”, we ask questions meant
+to illustrate worst-case scenarios, in order to minimize the risk of you having
+to  regret your choice. We may even recommend not using a license at all — after
 all, you always have the option of making your work more free later on, but
 never the other way around.
 
