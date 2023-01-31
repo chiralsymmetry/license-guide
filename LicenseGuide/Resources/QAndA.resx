@@ -118,23 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="code_custom_license_answer" xml:space="preserve">
-    <value>No, that's usually a bad idea. If your goal is to place specific restrictions on what others can do with your code, you should be aware that it is difficult to be unambiguous; if you write something wrong, you may inadvertently introduce a loophole that allows code-receiving developers to do something you explicitly meant to forbid (or to refrain from doing something you explicitly meant to force them to do). And if your goal is to make things easier for other developers who want use your code, a custom license might make the code less secure for them, since your license is untested and uncertain.
+    <value>No, that’s usually a bad idea. If your goal is to place specific restrictions on what others can do with your code, you should be aware that it is difficult to be unambiguous; if you write something wrong, you may inadvertently introduce a loophole that allows code-receiving developers to do something you explicitly meant to forbid (or to refrain from doing something you explicitly meant to force them to do). And if your goal is to make things easier for other developers who want use your code, a custom license might make the code less secure for them, since your license is untested and uncertain.
 
 Software licenses are written with a lot of effort by people with legal expertise for a reason.</value>
   </data>
   <data name="code_custom_license_question" xml:space="preserve">
-    <value>No license does exactly what I want. Can't I just write my own license?</value>
+    <value>No license does exactly what I want. Can’t I just write my own license?</value>
   </data>
   <data name="code_derivative_works_limit_answer" xml:space="preserve">
     <value>This is a contentious issue that arises particularly in the context of GPL-style licenses that require the derivative work to be licensed under the same license as the original work.
 
-Pretty much everyone agrees that if you take someone else's source code and make a few small changes, you are creating a derivative work, and that if in a project you write almost all of the source code yourself but copy and paste someone else's function (e.g., for some special mathematical calculation), you are also creating a derivative work. Opinions begin to diverge on the question of creating source code that merely assumes the presence of someone else's source code without actually including it — essentially a question of whether or not derivative works are created when using libraries.
+Pretty much everyone agrees that if you take someone else’s source code and make a few small changes, you are creating a derivative work, and that if in a project you write almost all of the source code yourself but copy and paste someone else’s function (e.g., for some special mathematical calculation), you are also creating a derivative work. Opinions begin to diverge on the question of creating source code that merely assumes the presence of someone else’s source code without actually including it — essentially a question of whether or not derivative works are created when using libraries.
 
-The Free Software Foundation (FSF), creators of the GPL, are very strict: they believe that if your source code cannot work without a particular GPL library, you must license your own source code as GPL (if you intend to distribute it), even if your source code merely contains references to the GPL code. This could be compared to writing a sequel to someone else's novel: you are creating a derivative work that cannot stand on its own. However, their analysis is eased somewhat if an unmodified client program works just as well with alternative libraries that are not GPL-licensed.
+The Free Software Foundation (FSF), creators of the GPL, are very strict: they believe that if your source code cannot work without a particular GPL library, you must license your own source code as GPL (if you intend to distribute it), even if your source code merely contains references to the GPL code. This could be compared to writing a sequel to someone else’s novel: you are creating a derivative work that cannot stand on its own. However, their analysis is eased somewhat if an unmodified client program works just as well with alternative libraries that are not GPL-licensed.
 
-As for compiled source code, most people agree that if the binaries of the client program contain the binary form of the library, and the client program actually uses the library's functionality, then it's a derivative work. If the client program and the library are separate binaries, but the client program loads the library into its own address space and uses its functionality directly, then the client program is also often considered to be a derivative work. With both separate binaries and separate address spaces, where the client program must communicate with the library through its public interface, opinions again begin to differ; as for the FSF, they consider this situation to create a clearly derivative work, and therefore offer the LGPL license to library developers who wish to allow this situation. The more independent the communication between the client program and the GPL code (as a standalone program), the less likely it is that even the FSF would consider the client program a derivative work.
+As for compiled source code, most people agree that if the binaries of the client program contain the binary form of the library, and the client program actually uses the library’s functionality, then it’s a derivative work. If the client program and the library are separate binaries, but the client program loads the library into its own address space and uses its functionality directly, then the client program is also often considered to be a derivative work. With both separate binaries and separate address spaces, where the client program must communicate with the library through its public interface, opinions again begin to differ; as for the FSF, they consider this situation to create a clearly derivative work, and therefore offer the LGPL license to library developers who wish to allow this situation. The more independent the communication between the client program and the GPL code (as a standalone program), the less likely it is that even the FSF would consider the client program a derivative work.
 
-Many of these lines and arguments are not legally tested, but a good rule of thumb is to follow the FSF's approach. If you don't want to license your code under the GPL, you need to find an alternative to using someone else's GPL-licensed code.</value>
+Many of these lines and arguments are not legally tested, but a good rule of thumb is to follow the FSF’s approach. If you don’t want to license your code under the GPL, you need to find an alternative to using someone else’s GPL-licensed code.</value>
   </data>
   <data name="code_derivative_works_limit_question" xml:space="preserve">
     <value>Where is the line drawn for derivative works within source code/software? Will my source code have to be licensed as GPL?</value>
@@ -142,9 +142,9 @@ Many of these lines and arguments are not legally tested, but a good rule of thu
   <data name="code_gpl_mixing_answer" xml:space="preserve">
     <value>Combining source code means creating a derivative work. To create or distribute a derivative work, you must have permission from the creators. If the permission comes conditionally through a license, you must comply with all the terms of the license in order to create or distribute the combination.
 
-The GPL allows free modification for personal use, i.e. you may modify code and use it privately; the code modifications create a derivative work consisting of GPL-licensed code and “proprietary” code under public copyright. Similarly, you may privately and legally combine someone else's GPL-licensed source code with someone else's GPL-incompatibly licensed source code.
+The GPL allows free modification for personal use, i.e. you may modify code and use it privately; the code modifications create a derivative work consisting of GPL-licensed code and “proprietary” code under public copyright. Similarly, you may privately and legally combine someone else’s GPL-licensed source code with someone else’s GPL-incompatibly licensed source code.
 
-However, in order to be granted permission to distribute the combined work, the GPL requires that the derivative work be covered by the same license (i.e., the GPL), which in practice means that the derivative work must be covered by the GPL in combination with all other licenses covering the original component works: you generally do not have the right to remove the license on someone else's work, so they all apply at the same time, albeit possibly on different parts. If any other component license imposes any restriction on what is guaranteed by the GPL, the use or distribution is no longer granted by the GPL, making the work both created and distributed in violation of copyright.
+However, in order to be granted permission to distribute the combined work, the GPL requires that the derivative work be covered by the same license (i.e., the GPL), which in practice means that the derivative work must be covered by the GPL in combination with all other licenses covering the original component works: you generally do not have the right to remove the license on someone else’s work, so they all apply at the same time, albeit possibly on different parts. If any other component license imposes any restriction on what is guaranteed by the GPL, the use or distribution is no longer granted by the GPL, making the work both created and distributed in violation of copyright.
 
 It is therefore important to use GPL-compatible licenses when creating source code that uses GPL-licensed source code.</value>
   </data>
@@ -154,7 +154,7 @@ It is therefore important to use GPL-compatible licenses when creating source co
   <data name="code_gpl_output_answer" xml:space="preserve">
     <value>No, copyright generally does not apply to output, just as Microsoft does not own the text document you create in Microsoft Word. An exception, of course, is when the output must be considered a derivative work, such as a GPL-licensed program that prints its own source code. A recording of a play session of a computer game with GPL-licensed graphical resources would also reasonably be a GPL-licensed derivative work.
 
-The guiding principle is that the output is protected by the same copyright as the input. If the input is your imagination, you fully own the output, but if, for example, you edit someone else's photograph in a GPL-licensed photo editing software, you create a derivative work that is protected by both your copyright and the original photographer's copyright, but not by the GPL.</value>
+The guiding principle is that the output is protected by the same copyright as the input. If the input is your imagination, you fully own the output, but if, for example, you edit someone else’s photograph in a GPL-licensed photo editing software, you create a derivative work that is protected by both your copyright and the original photographer’s copyright, but not by the GPL.</value>
   </data>
   <data name="code_gpl_output_question" xml:space="preserve">
     <value>Does the GPL license extend to the output of a program?</value>
@@ -194,7 +194,7 @@ Therefore, when creating or using GPL-licensed source code or resources, you sho
     <value>How does licensing work when source code is mixed with other types of material, such as graphical resources in a computer game?</value>
   </data>
   <data name="code_spdx_answer" xml:space="preserve">
-    <value>The Software Package Data Exchange, or SPDX, is a standard made by the Linux Foundation for providing information on software, such as applicable licenses. It allows for tools to find legal problems when combining code. Even if you aren't going to use such tools, it serves as an extra point of clarity for others.
+    <value>The Software Package Data Exchange, or SPDX, is a standard made by the Linux Foundation for providing information on software, such as applicable licenses. It allows for tools to find legal problems when combining code. Even if you aren’t going to use such tools, it serves as an extra point of clarity for others.
 
 The format allows for situations with multiple licenses in single files:
 // SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-only
@@ -206,14 +206,14 @@ The format also allows for when the developer wants to allow choice:
     <value>What is SPDX-License-Identifier?</value>
   </data>
   <data name="code_use_gpl_without_gpl_answer" xml:space="preserve">
-    <value>There are ways to legally circumvent the GPL, and copyright in general. One way is called “clean room design”, where you hire developers who have no knowledge of the original implementation, and give them only specifications of what you want them to build. In other words, the only thing the developers are allowed to know is the public API of the original. (If you didn't have to study the original to get the specs, you might be able to legally create the work yourself.)
+    <value>There are ways to legally circumvent the GPL, and copyright in general. One way is called “clean room design”, where you hire developers who have no knowledge of the original implementation, and give them only specifications of what you want them to build. In other words, the only thing the developers are allowed to know is the public API of the original. (If you didn’t have to study the original to get the specs, you might be able to legally create the work yourself.)
 
 A more GPL-specific solution if you want to use GPL libraries is to make your client program modular. You can then create a fully optional and GPL-licensed module that uses the GPL library. However, the client program must be truly independent of the GPL module. If this is not possible, you can create a rudimentary replacement for the GPL library: the client program works without the GPL library, but users who want enhanced functionality can install GPL library themselves.
 
 Depending on how the circumvention is done, it may be perceived as dishonest. No one will reasonably complain if someone independently creates software that competes with GPL software, but the more it is perceived that they are exploiting loopholes to violate the spirit of the license, the more disreputable those developers will become, and the grayer the area, the greater the risk of copyright infringement lawsuits.</value>
   </data>
   <data name="code_use_gpl_without_gpl_question" xml:space="preserve">
-    <value>Can you use GPL code without having to license your own code as GPL? Can you circumvent someone else's license?</value>
+    <value>Can you use GPL code without having to license your own code as GPL? Can you circumvent someone else’s license?</value>
   </data>
   <data name="code_why_license_answer" xml:space="preserve">
     <value>In addition to the fact that software may be subject to special legal treatment in many countries, e.g. in restrictions on private copying that would be legal for other kinds of works, there may also be other complications, such as when defining “derivative work” in relation to source code: compiling source code into binary form could be considered legally the same as translating a novel from English into German, which might require explicit permission from the author. Even the simple execution of compiled code could be considered copying (from disk to physical memory), with legal implications.
@@ -224,9 +224,9 @@ Given this potential complexity, a software license would preferably make it cle
     <value>Why are licenses needed specifically for software/source code (rather than using those for cultural works)?</value>
   </data>
   <data name="font_fonts_typefaces_answer" xml:space="preserve">
-    <value>A “typeface” is an author's design of letters, while a “font” is a specific variation of a typeface, such as bold in size 10 point. The word “font” also refers to a specific digitization of a font, i.e. a font file for use on a computer.
+    <value>A “typeface” is an author’s design of letters, while a “font” is a specific variation of a typeface, such as bold in size 10 point. The word “font” also refers to a specific digitization of a font, i.e. a font file for use on a computer.
 
-In some countries, both typefaces and font files are protected by copyright, but many countries have decided that typefaces should not be protected by copyright (while still protecting font files). In such a country, it would be a crime to distribute someone else's font file without permission, but it might be legal to replicate the typeface in a font file you create yourself.</value>
+In some countries, both typefaces and font files are protected by copyright, but many countries have decided that typefaces should not be protected by copyright (while still protecting font files). In such a country, it would be a crime to distribute someone else’s font file without permission, but it might be legal to replicate the typeface in a font file you create yourself.</value>
   </data>
   <data name="font_fonts_typefaces_question" xml:space="preserve">
     <value>What is the difference between typefaces and fonts?</value>
@@ -240,7 +240,7 @@ In some countries, both typefaces and font files are protected by copyright, but
   <data name="general_anonymous_answer" xml:space="preserve">
     <value>No, copyright applies even if you publish your work under a pseudonym (an assumed name) or anonymously (no name).
 
-However, there are times when anonymous or pseudonymous publication may present a legal obstacle. For example, if you want to defend your work against copyright infringement, you must be able to prove that you are the creator of the work, and in the absence of public knowledge about whether the creator is alive or not, the copyright of the work will expire based on the year the work was published. If that's acceptable, there's no problem with not giving your real name or otherwise making yourself identifiable.</value>
+However, there are times when anonymous or pseudonymous publication may present a legal obstacle. For example, if you want to defend your work against copyright infringement, you must be able to prove that you are the creator of the work, and in the absence of public knowledge about whether the creator is alive or not, the copyright of the work will expire based on the year the work was published. If that’s acceptable, there’s no problem with not giving your real name or otherwise making yourself identifiable.</value>
   </data>
   <data name="general_anonymous_question" xml:space="preserve">
     <value>Do I have to use my real name in copyright notices?</value>
@@ -260,7 +260,7 @@ Some types of works may have a shorter term of protection. “Audiovisual” wor
     <value>Do I have to use the copyright symbol, ©?</value>
   </data>
   <data name="general_copyright_years_answer" xml:space="preserve">
-    <value>Copyright in a work applies whether or not you include a copyright notice, and regardless of the particular form of the notice. If you do include a notice, it's a good idea to include the year. The years are mainly there to help other people tell whether the copyright on the work has expired — and, if it has not, to make it even clearer that the creators are asserting their rights. So if you want to be clear, you can write the year when you first made the work available to the public. For example, if you wrote a novel between 2010 and 2013, put it away for 10 years, and published it in 2023, you would write “Copyright © 2023”.
+    <value>Copyright in a work applies whether or not you include a copyright notice, and regardless of the particular form of the notice. If you do include a notice, it’s a good idea to include the year. The years are mainly there to help other people tell whether the copyright on the work has expired — and, if it has not, to make it even clearer that the creators are asserting their rights. So if you want to be clear, you can write the year when you first made the work available to the public. For example, if you wrote a novel between 2010 and 2013, put it away for 10 years, and published it in 2023, you would write “Copyright © 2023”.
 
 For “living works” — that is, works that change even after they were made available for the first time — you can use multiple years. If you published a web page in 2015 and then did not update it until 2020, you could write “Copyright © 2015, 2020”. On the other hand, if you have updated it each year in between, you could say “Copyright © 2015-2020”. And if you have updated the web page such that no material written before 2018 remains, you can then start writing “Copyright © 2018-2020”. Finally, you can combine the forms: a web page with material written in 2015 and 2018-2020 can have the text “Copyright © 2015, 2018-2020”.</value>
   </data>
@@ -268,7 +268,7 @@ For “living works” — that is, works that change even after they were made 
     <value>How do years work in copyright notices?</value>
   </data>
   <data name="general_derivative_works_answer" xml:space="preserve">
-    <value>A derivative work is a work created based on someone else's work, in the broadest sense of the term. Performing someone else's song creates a derivative work; creating subtitles to someone else's film creates a derivative work; creating a collage of pictures that includes a detail from someone else's picture creates a derivative work. In many countries, it is considered a violation of copyright law to create a derivative work without the permission of the original creator, even for private use (e.g., translating a novel even though no one else will ever read the translation).
+    <value>A derivative work is a work created based on someone else’s work, in the broadest sense of the term. Performing someone else’s song creates a derivative work; creating subtitles to someone else’s film creates a derivative work; creating a collage of pictures that includes a detail from someone else’s picture creates a derivative work. In many countries, it is considered a violation of copyright law to create a derivative work without the permission of the original creator, even for private use (e.g., translating a novel even though no one else will ever read the translation).
 
 The derivative work itself may cross the threshold of originality and be protected by copyright, whether or not the original work itself is protected by copyright (e.g., a photograph of the Mona Lisa painting). If the original work is copyrighted, the derivative work may have two or more authors, so distribution and use require permission from all of them.
 

@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="attribution_no" xml:space="preserve">
-    <value>No, I want my font to be shared and come to use, even if it carries the risk that I won't be acknowledged as the font's creator.</value>
+    <value>No, I want my font to be shared and come to use, even if it carries the risk that I won’t be acknowledged as the font’s creator.</value>
   </data>
   <data name="attribution_question" xml:space="preserve">
     <value>Suppose someone you despise distributes your font. Nowhere do they state that you are the creator of the font. Do you want this to be illegal?</value>
   </data>
   <data name="attribution_yes" xml:space="preserve">
-    <value>Yes, they can use my font in printed material and the like without mentioning my name, but in order to distribute my font, I want them to be forced to acknowledge me as the font's creator.</value>
+    <value>Yes, they can use my font in printed material and the like without mentioning my name, but in order to distribute my font, I want them to be forced to acknowledge me as the font’s creator.</value>
   </data>
   <data name="cc0_explanation" xml:space="preserve">
-    <value>The Creative Commons family of public copyright licenses has the primary goal of promoting free culture and open content. That's why they have developed several licenses with careful legal language and varying terms and conditions, to allow creators who want to contribute to choose a license that suits their needs.
+    <value>The Creative Commons family of public copyright licenses has the primary goal of promoting free culture and open content. That’s why they have developed several licenses with careful legal language and varying terms and conditions, to allow creators who want to contribute to choose a license that suits their needs.
 
 By licensing/marking your font as CC0, you indicate your intention to permanently waive all copyright, to the fullest extent permitted by law, without any requirement for compensation or attribution. (Please note that the license applies only to copyright, not to trademarks or patents.)
 
@@ -173,7 +173,7 @@ THE FONT.</value>
     <value>Yes, in order to use my font, I want them to be prevented from making changes. My font should be kept untouched.</value>
   </data>
   <data name="full_copyright_explanation" xml:space="preserve">
-    <value>For full control, you should rely on the copyright that applies by default to all works that reach the threshold of originality. Almost all countries have signed agreements to enforce copyright laws with certain minimum protections, and to respect copyright in each other's countries. A creator of a work, such as a font, automatically has at least 50 years of exclusive economic and moral rights to determine how the work is copied and distributed, provided it is sufficiently original.
+    <value>For full control, you should rely on the copyright that applies by default to all works that reach the threshold of originality. Almost all countries have signed agreements to enforce copyright laws with certain minimum protections, and to respect copyright in each other’s countries. A creator of a work, such as a font, automatically has at least 50 years of exclusive economic and moral rights to determine how the work is copied and distributed, provided it is sufficiently original.
 
 Normal copyright applies even in the absence of a copyright notice, e.g. if you publish your font online without ever writing that you prohibit its use, copying or distribution. Nevertheless, it is a good idea to be explicit to avoid misunderstandings, if only because fonts are often freely available online.
 
