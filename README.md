@@ -25,8 +25,9 @@ attorney for legal advice. ⚠️
 ## Usage
 Download, run, click, read.
 
-Users unable or unwilling to use a .NET application may use the HTML version
-in the `docs` directory; it is entirely self-contained.
+Users unable or unwilling to use a .NET application may download the HTML version
+from the `docs` directory; it is entirely self-contained. Alternatively,
+[view online](https://chiralsymmetry.github.io/license-guide/license-guide.html) ([Swedish version](https://chiralsymmetry.github.io/license-guide/license-guide.sv-SE.html)).
 
 ## Settings
 Settings may be provided through a text file named `appsettings.json`.
