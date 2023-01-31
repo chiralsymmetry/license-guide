@@ -25,6 +25,9 @@ attorney for legal advice. ⚠️
 ## Usage
 Download, run, click, read.
 
+Users unable or unwilling to use a .NET application may use the HTML version
+in the `docs` directory; it is entirely self-contained.
+
 ## Settings
 Settings may be provided through a text file named `appsettings.json`.
 Language may be overridden by setting `Language` to a language code, and a
